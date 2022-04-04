@@ -13,11 +13,9 @@
           <Node name="IntexFinal" expanded="True">
             <Node name="IntexFinal" expanded="True">
               <Node name="Dependencies" expanded="True" />
+              <Node name="Pages" expanded="True" selected="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Home" expanded="True" />
               </Node>
             </Node>
           </Node>
