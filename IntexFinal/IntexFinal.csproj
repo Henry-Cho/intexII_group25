@@ -13,6 +13,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Models\ViewModels\" />
     <None Remove="Views\Account\" />
+    <None Remove="AWSSDK.SecretsManager" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
@@ -31,6 +32,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.22" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.7" />
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.3.0" />
   </ItemGroup>
 </Project>
