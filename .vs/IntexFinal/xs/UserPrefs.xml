@@ -1,22 +1,31 @@
 ﻿<Properties StartupConfiguration="{233D5AC2-B319-43E5-9501-5604875DE4D0}|Default">
   <MonoDevelop.Ide.ItemProperties.IntexFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Pages/Admin/Index.cshtml">
     <Files>
-      <File FileName="IntexFinal/Views/Home/Index.cshtml" Line="12" Column="7" />
-      <File FileName="IntexFinal/Views/Home/Privacy.cshtml" />
+      <File FileName="IntexFinal/Pages/Admin/Index.cshtml" Line="18" Column="57" />
+      <File FileName="IntexFinal/Pages/Admin/Incidents.razor" />
+      <File FileName="IntexFinal/Pages/Admin/Routed.razor" />
+      <File FileName="IntexFinal/Pages/Admin/AdminLayout.razor" />
+      <File FileName="IntexFinal/Pages/Admin/_Imports.razor" />
+      <File FileName="IntexFinal/Pages/Admin/Index.cshtml.cs" />
       <File FileName="IntexFinal/Views/_ViewImports.cshtml" />
-      <File FileName="IntexFinal/Views/_ViewStart.cshtml" />
+      <File FileName="IntexFinal/Pages/_ViewImports.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IntexFinal" expanded="True">
             <Node name="IntexFinal" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Pages" expanded="True" selected="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
