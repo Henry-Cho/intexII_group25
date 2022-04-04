@@ -40,20 +40,22 @@ using Microsoft.AspNetCore.Components.Web;
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 5 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 6 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
 using IntexFinal.Models;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class Routed : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
+    public partial class Incidents_2 : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
