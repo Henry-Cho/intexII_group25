@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IntexFinal"
+    "\\IntexFinal",
+    "\\IntexFinal\\Views",
+    "\\IntexFinal\\Views\\Home"
   ],
+  "SelectedNode": "\\IntexFinal\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
