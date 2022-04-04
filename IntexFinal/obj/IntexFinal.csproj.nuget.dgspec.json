@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hyungseokcho/Projects/IntexFinal/IntexFinal/IntexFinal.csproj": {}
+    "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {}
   },
   "projects": {
-    "/Users/hyungseokcho/Projects/IntexFinal/IntexFinal/IntexFinal.csproj": {
+    "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hyungseokcho/Projects/IntexFinal/IntexFinal/IntexFinal.csproj",
+        "projectUniqueName": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
         "projectName": "IntexFinal",
-        "projectPath": "/Users/hyungseokcho/Projects/IntexFinal/IntexFinal/IntexFinal.csproj",
+        "projectPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
         "packagesPath": "/Users/hyungseokcho/.nuget/packages/",
-        "outputPath": "/Users/hyungseokcho/Projects/IntexFinal/IntexFinal/obj/",
+        "outputPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hyungseokcho/.config/NuGet/NuGet.Config"
