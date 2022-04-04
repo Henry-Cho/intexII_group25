@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {}
+    "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {}
   },
   "projects": {
-    "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {
+    "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
+        "projectUniqueName": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
         "projectName": "IntexFinal",
-        "projectPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
-        "packagesPath": "/Users/dongking/.nuget/packages/",
-        "outputPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/obj/",
+        "projectPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
+        "packagesPath": "/Users/hyungseokcho/.nuget/packages/",
+        "outputPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dongking/.config/NuGet/NuGet.Config"
+          "/Users/hyungseokcho/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -37,6 +37,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }
