@@ -26,8 +26,15 @@ using IntexFinal.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Views/_ViewImports.cshtml"
+using IntexFinal.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"072554b337a26841a01a21094603b935d2f59dd9", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e8c1b0934440dec49340bb1f05c7e6c86f07c551", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

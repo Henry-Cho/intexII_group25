@@ -131,3 +131,4 @@
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.pdb
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.genruntimeconfig.cache
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
