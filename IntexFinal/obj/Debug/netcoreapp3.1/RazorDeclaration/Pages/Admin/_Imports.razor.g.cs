@@ -39,6 +39,20 @@ using Microsoft.AspNetCore.Components.Web;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+using Microsoft.EntityFrameworkCore;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+using IntexFinal.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class _Imports : System.Object
     {
         #pragma warning disable 1998
