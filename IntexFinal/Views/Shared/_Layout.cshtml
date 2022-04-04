@@ -3,46 +3,86 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Utah Car Crashes</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>@ViewData["Title"] - IntexFinal</title>
+    <link rel="stylesheet" href="~/lib/items/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="icon" type="image/x-icon" href="/img/car-removebg-preview.png">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="~/lib/items/img/favicon.png">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <!--<link rel="stylesheet" href="~/lib/items/bootstrap/css/all.min.css">-->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="~/lib/items/bootstrap/css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="~/lib/items/css/owl.carousel.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="~/lib/items/css/magnific-popup.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="~/lib/items/css/animate.css">
+    <!-- mean menu css -->
+    <link rel="stylesheet" href="~/lib/items/css/meanmenu.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="~/lib/items/css/main.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="~/lib/items/css/responsive.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Utah Car Crashes</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Data">Data</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Stats">Stats</a>
-                        </li>
-                    </ul>
+    @RenderBody()
+    <!-- end footer -->
+    <!-- copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <p>
+                        Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
+                        Distributed By - <a href="https://themewagon.com/">Themewagon</a>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-right col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>  
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Group 2.5 - <a href="https://www.privacypolicies.com/live/b3b5be99-8f44-4b74-8e4e-c3ed8de4e4a1">Privacy</a>
         </div>
-    </footer>
+    </div>
+    <!-- end copyright -->
+    <!-- jquery -->
+    <script src="~/lib/items/js/jquery-1.11.3.min.js"></script>
+    <!-- bootstrap -->
+    <script src="~/lib/items/bootstrap/js/bootstrap.min.js"></script>
+    <!-- count down -->
+    <script src="~/lib/items/js/jquery.countdown.js"></script>
+    <!-- isotope -->
+    <script src="~/lib/items/js/jquery.isotope-3.0.6.min.js"></script>
+    <!-- waypoints -->
+    <script src="~/lib/items/js/waypoints.js"></script>
+    <!-- owl carousel -->
+    <script src="~/lib/items/js/owl.carousel.min.js"></script>
+    <!-- magnific popup -->
+    <script src="~/lib/items/js/jquery.magnific-popup.min.js"></script>
+    <!-- mean menu -->
+    <script src="~/lib/items/js/jquery.meanmenu.min.js"></script>
+    <!-- sticker js -->
+    <script src="~/lib/items/js/sticker.js"></script>
+    <!-- main js -->
+    <script src="~/lib/items/js/main.js"></script>
+
+    <!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
 </body>
 </html>
