@@ -36,6 +36,11 @@ namespace IntexFinal
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppIdentityDBContext>();
 
+            services.AddDbContext<CrashDBContext>(options =>
+            {
+                options.UseMySql(Configuration["ConnectionStrings:CrashDbConnection"]);
+            });
+            services.AddScoped<ICrashRepository, EFCrashRepository>();
             services.AddRazorPages();
             services.AddSession();
             services.AddServerSideBlazor();
