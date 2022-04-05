@@ -5,17 +5,21 @@
 @using Microsoft.JSInterop;
 @inject IJSRuntime JS; 
 
-
-<div class="container">
-    <h1 class="text-center">Admin</h1>
-    <NavLink class="btn btn-primary mb-3" href="/admin/incidents/create">Enter New Data</NavLink>
-    <table class="table table-sm table-striped table-bordered">
-        <thead>
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 style="font-size: 5rem;">Admin</h1>
+    </div>
+</div>
+<div class="container mt-2 mb-2">
+    <NavLink class="btn boxed-btn mb-2" href="/admin/incidents/create">Enter New Data</NavLink>
+    <table class="table table-sm table-striped table-bordered ">
+        <thead class="thead-dark"> 
             <tr>
                 <th>Crash Id</th>
                 <th>Crash Datetime</th>
                 <th>City</th>
                 <th>Mainroad Name</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -30,13 +34,11 @@
                         <td>@c.city</td>
                         <td>@c.main_road_name</td>
                         <td>
-                            <NavLink class="btn btn-info btn-sm" href="@GetDetailsUrl(c.crash_ID)">Details</NavLink>
-                        </td>
-                        <td>
-                            <NavLink class="btn btn-warning btn-sm" href="@GetEditUrl(c.crash_ID)">Edit</NavLink>
-                        </td>
-                        <td>
-                            <NavLink class="btn btn-danger text-white btn-sm" @onclick="() => RemoveCrashData(c)">Delete</NavLink>
+                            <div class="d-flex justify-content-center">
+                                <NavLink class="btn boxed-btn mr-2" href="@GetDetailsUrl(c.crash_ID)">Details</NavLink>
+                                <NavLink class="btn bordered-btn text-dark bg-white mr-2" href="@GetEditUrl(c.crash_ID)">Edit</NavLink>
+                                <NavLink class="btn btn-danger text-white" style="border-radius: 50px; padding-top: 10px;" @onclick="() => RemoveCrashData(c)">Delete</NavLink>
+                            </div>
                         </td>
                     </tr>
                 }
@@ -95,7 +97,7 @@
     {
         var AllData = repo.Crash_Data;
 
-        int PageSize = 10;
+        int PageSize = 7;
         pagingInfo = new PagingInfo();
         page = page == 0 ? 1 : page;
         pagingInfo.CurrentPage = page;

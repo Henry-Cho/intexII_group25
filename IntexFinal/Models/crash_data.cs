@@ -19,6 +19,7 @@ namespace IntexFinal.Models
         public double long_utm_x { get; set; }
         public string city { get; set; }
         public string county_name { get; set; }
+        [Range(1, 5)]
         public int crash_severity_id { get; set; }
         public bool work_zone_related { get; set; }
         public bool pedestrian_involved { get; set; }
