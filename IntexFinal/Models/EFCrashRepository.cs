@@ -18,7 +18,7 @@ namespace IntexFinal.Models
 
         public void CreateCrashData(crash_data cd)
         {
-            _context.Update(cd);
+            _context.Add(cd);
             _context.SaveChanges();
         }
 
@@ -30,7 +30,7 @@ namespace IntexFinal.Models
 
         public void SaveCrashData(crash_data cd)
         {
-            _context.Add(cd);
+            _context.Update(cd);
             _context.SaveChanges();
         }
     }
