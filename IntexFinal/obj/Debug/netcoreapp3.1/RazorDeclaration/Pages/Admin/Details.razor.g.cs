@@ -53,6 +53,7 @@ using IntexFinal.Models;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.LayoutAttribute(typeof(AdminLayout))]
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents/details/{id:long}")]
     public partial class Details : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -62,7 +63,7 @@ using IntexFinal.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Details.razor"
+#line 45 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Details.razor"
            
         [Inject]
         public ICrashRepository repo { get; set; }

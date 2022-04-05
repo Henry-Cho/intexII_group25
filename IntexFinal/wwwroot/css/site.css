@@ -91,3 +91,37 @@ body {
     background: white;
     transition: all 100ms ease-in-out;
 }
+
+.boxed-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.boxed-btn:hover {
+    background-color: #051922;
+    color: #F28123;
+}
+
+.bordered-btn {
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #F28123;
+    padding: 7px 20px;
+}
+
+.bordered-btn:hover {
+    background-color: #F28123;
+    color: #fff;
+}
