@@ -48,17 +48,22 @@ namespace IntexFinal.Controllers
         }
 
         [HttpGet]
-        public IActionResult Form()
+        public IActionResult SeverityCalculator()
         {
             return View();
         }
-
-        [HttpPost]
-        public IActionResult Form(crash_data c)
+        [HttpGet]
+        public IActionResult FullCalculator()
         {
-            repo.CreateCrashData(c);
-            return RedirectToAction("Incidents");
+            crash_data cd = new crash_data();
+            return View(cd);
         }
+        [HttpPost]
+        public IActionResult FullCalculator(crash_data cd)
+        {
+            return View(cd);
+        }
+
 
         public IActionResult Privacy()
         {
