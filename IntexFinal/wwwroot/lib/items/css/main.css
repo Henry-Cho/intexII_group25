@@ -542,6 +542,7 @@ nav.main-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 nav.main-menu ul li {
@@ -594,18 +595,13 @@ nav.main-menu ul > li:hover ul {
   visibility: visible;
 }
 
-nav.main-menu ul li:last-child a {
-  display: inline-block;
-}
-
-nav.main-menu > ul li:last-child {
-  float: right;
-}
-
 .site-logo {
-  float: left;
-  max-width: 120px;
+  position: absolute;
+  max-width: 130px;
+  top: 12px;
 }
+
+.site-logo:hover {   transform: scale(1.2);   transition: all 200ms ease-in-out;}
 
 ul.sub-menu li:last-child {
   float: none !important;
