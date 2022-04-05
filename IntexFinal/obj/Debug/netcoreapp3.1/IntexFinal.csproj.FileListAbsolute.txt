@@ -138,3 +138,6 @@
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Incidents.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/IncidentSummary.cshtml.g.cs

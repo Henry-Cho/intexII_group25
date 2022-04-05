@@ -29,7 +29,48 @@
     <link rel="stylesheet" href="~/lib/items/css/responsive.css">
 </head>
 <body>
+    <!-- header -->
+    <div class="top-header-area" id="sticker">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="main-menu-wrap">
+                        <!-- logo -->
+                        <div class="site-logo">
+                            <a asp-controller="Home" asp-action="Index">
+                                <img src="~/lib/items/img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo -->
+                        <!-- menu start -->
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="nav-menu"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li class="nav-menu"><a asp-controller="Home" asp-action="Incidents">Incidents</a></li>
+                                <li class="nav-menu"><a href="#">Predictions</a></li>
+                                <li><a href="#" style="pointer-events: none"></a></li>
+                            </ul>
+                        </nav>
+                        <!-- menu end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     @RenderBody()
+    <!-- footer -->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-box about-widget henry-footer">
+                        <h2 class="widget-title">About Incidents in Utah</h2>
+                        <p>Utah has a unique set of challenges when it comes to motor vehicle accidents. For example, although alcohol is still a problem, it may be less of a problem in Utah than distracted driving. Lawmakers need to understand these unique challenges better in order to regulate effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <partial name="_CookieConsentPartial" />
     <!-- end footer -->
     <!-- copyright -->
@@ -41,17 +82,6 @@
                         Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
                         Distributed By - <a href="https://themewagon.com/">Themewagon</a>
                     </p>
-                </div>
-                <div class="col-lg-6 text-right col-md-12">
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>

@@ -6,21 +6,45 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using IntexFinal.Models;
+using IntexFinal.Models.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace IntexFinal.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private ICrashRepository repo;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ICrashRepository context)
         {
-            _logger = logger;
+            repo = context;
         }
 
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Incidents(int pageNum = 1)
+        {
+            int pageSize = 20;
+
+            var x = new IncidentsViewModel
+            {
+                Incidents = repo.Crash_Data
+                .OrderByDescending(x => x.crash_datetime)
+                .Skip((pageNum - 1) * pageSize)
+                .Take(pageSize),
+
+                PageInfo = new PageInfo
+                {
+                    TotalNumIncidents = repo.Crash_Data.Count(),
+                    IncidentsPerPage = pageSize,
+                    CurrentPage = pageNum
+                }
+            };
+
+            return View(x);
         }
 
         public IActionResult Privacy()
