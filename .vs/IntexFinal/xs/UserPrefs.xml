@@ -1,24 +1,22 @@
 ﻿<Properties StartupConfiguration="{233D5AC2-B319-43E5-9501-5604875DE4D0}|Default">
   <MonoDevelop.Ide.ItemProperties.IntexFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/wwwroot/css/site.css">
     <Files>
-      <File FileName="IntexFinal/Models/EFCrashRepository.cs" Line="14" Column="10" />
-      <File FileName="IntexFinal/Models/CrashDBContext.cs" />
-      <File FileName="IntexFinal/Models/ICrashRepository.cs" Line="11" Column="61" />
-      <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" />
-      <File FileName="IntexFinal/Controllers/HomeController.cs" />
-      <File FileName="IntexFinal/Views/Home/Incidents.cshtml" />
-      <File FileName="IntexFinal/Infrastructure/PaginationTagHelper.cs" />
-      <File FileName="IntexFinal/Models/crash_data.cs" Line="22" Column="51" />
-      <File FileName="IntexFinal/Startup.cs" Line="78" Column="10" />
-      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" />
-      <File FileName="IntexFinal/Models/AppIdentityDBContext.cs" Line="1" Column="1" />
+      <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" Line="46" Column="37" />
+      <File FileName="IntexFinal/Views/Home/Incidents.cshtml" Line="21" Column="17" />
+      <File FileName="IntexFinal/Views/Home/Index.cshtml" Line="5" Column="1" />
+      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" Line="6" Column="33" />
+      <File FileName="IntexFinal/wwwroot/lib/items/css/main.css" Line="615" Column="12" />
+      <File FileName="IntexFinal/wwwroot/css/site.css" Line="86" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IntexFinal" expanded="True">
             <Node name="IntexFinal" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Migrations" expanded="True" />
@@ -32,8 +30,16 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+                <Node name="lib" expanded="True">
+                  <Node name="items" expanded="True">
+                    <Node name="css" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
