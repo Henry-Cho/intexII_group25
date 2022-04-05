@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "exMBP1BcLZERtcOhwQEcx3098ynLDd1NZIs+olCxCMbXPSxWJJClPXKdjloLkZz6zB8XkqvjugkLjgFS1bGiLg==",
+  "dgSpecHash": "K7xE9eLZq5HzwPH3aAj7x6mFcO2ARnjKYHAApP+erqNKVA62AHBmy3HBjGP88k5N1syJpJNy63PX4FRG4dj7dA==",
   "success": true,
   "projectFilePath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,10 @@
     "/Users/hyungseokcho/.nuget/packages/microsoft.extensions.primitives/3.1.22/microsoft.extensions.primitives.3.1.22.nupkg.sha512",
     "/Users/hyungseokcho/.nuget/packages/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "/Users/hyungseokcho/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "/Users/hyungseokcho/.nuget/packages/mysqlconnector/0.69.10/mysqlconnector.0.69.10.nupkg.sha512",
+    "/Users/hyungseokcho/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/hyungseokcho/.nuget/packages/pomelo.entityframeworkcore.mysql/3.2.7/pomelo.entityframeworkcore.mysql.3.2.7.nupkg.sha512",
+    "/Users/hyungseokcho/.nuget/packages/pomelo.jsonobject/2.2.1/pomelo.jsonobject.2.2.1.nupkg.sha512",
     "/Users/hyungseokcho/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
     "/Users/hyungseokcho/.nuget/packages/runtime.native.system.net.http/4.0.1/runtime.native.system.net.http.4.0.1.nupkg.sha512",
     "/Users/hyungseokcho/.nuget/packages/runtime.native.system.security.cryptography/4.0.0/runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
