@@ -97,6 +97,16 @@ namespace IntexFinal
             });
 
             IdentitySeedData.EnsurePopulated(app);
+
+            //This enables the CSP HTTP header
+            app.Use(async (context, next) =>
+            {
+                context.Response.Headers.Add("Content - Security - Policy",  
+                "script-src 'self'; " +
+                "style-src 'self'; " +
+                "img-src 'self'");
+                await next();
+            });
         }
     }
 }
