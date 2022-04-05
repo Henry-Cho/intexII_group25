@@ -53,13 +53,57 @@ using IntexFinal.Models;
 #line default
 #line hidden
 #nullable disable
-    public partial class _Imports : System.Object
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents/edit/{id:long}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents/create")]
+    public partial class Editor : OwningComponentBase<ICrashRepository>
     {
         #pragma warning disable 1998
-        protected void Execute()
+        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 193 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Editor.razor"
+       
+    [Parameter]
+    public long Id { get; set; } = 0;
+
+    public string ThemeColor => Id == 0 ? "primary" : "warning";
+    public string TitleText => Id == 0 ? "Create" : "Edit";
+
+    public crash_data b { get; set; } = new crash_data();
+
+    public ICrashRepository repo => Service;
+
+    protected override void OnParametersSet()
+    {
+        if (Id != 0)
+        {
+            b = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
+        }
+    }
+
+    public void SaveCrashData()
+    {
+        if (Id == 0)
+        {
+            repo.CreateCrashData(b);
+        }
+        else
+        {
+            repo.SaveCrashData(b);
+        }
+
+        NavManager.NavigateTo("/admin/incidents");
+    }
+
+    [Inject]
+    public NavigationManager NavManager { get; set; }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
