@@ -13,10 +13,12 @@ namespace IntexFinal.Models
         public int crash_ID { get; set; }
         public DateTime crash_datetime { get; set; }
         public int route { get; set; }
+        public double milepoint { get; set; }
+        public string main_road_name { get; set; }
         public double lat_utm_y { get; set; }
         public double long_utm_x { get; set; }
         public string city { get; set; }
-        public string country_name { get; set; }
+        public string county_name { get; set; }
         public int crash_severity_id { get; set; }
         public crash_severity crash_severity { get; set; }
         public bool work_zone_related { get; set; }

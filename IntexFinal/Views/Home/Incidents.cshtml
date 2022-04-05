@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "View Incidents";
+}
+
+@model IncidentsViewModel
+
+@if (Model.Incidents?.Count() > 0)
+{
+    foreach (crash_data c in Model.Incidents)
+    {
+        <partial name="IncidentSummary" model="c" />
+    }
+}
+else
+{
+    <div>No data</div>
+}
+
+<div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
+     page-class="btn" page-class-normal="btn-outline-dark"
+     page-class-selected="btn-primary" class="btn-group pull-right m-1">
+
+</div>
