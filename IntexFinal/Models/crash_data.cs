@@ -20,7 +20,6 @@ namespace IntexFinal.Models
         public string city { get; set; }
         public string county_name { get; set; }
         public int crash_severity_id { get; set; }
-        public crash_severity crash_severity { get; set; }
         public bool work_zone_related { get; set; }
         public bool pedestrian_involved { get; set; }
         public bool bicyclist_involved { get; set; }
