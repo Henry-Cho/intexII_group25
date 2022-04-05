@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{233D5AC2-B319-43E5-9501-5604875DE4D0}|Default">
   <MonoDevelop.Ide.ItemProperties.IntexFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Controllers/HomeController.cs">
     <Files>
-      <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" Line="46" Column="37" />
-      <File FileName="IntexFinal/Views/Home/Incidents.cshtml" Line="21" Column="17" />
-      <File FileName="IntexFinal/Views/Home/Index.cshtml" Line="5" Column="1" />
-      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" Line="6" Column="33" />
-      <File FileName="IntexFinal/wwwroot/lib/items/css/main.css" Line="615" Column="12" />
-      <File FileName="IntexFinal/wwwroot/css/site.css" Line="86" Column="19" />
+      <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" Line="50" Column="69" />
+      <File FileName="IntexFinal/Views/Home/Incidents.cshtml" />
+      <File FileName="IntexFinal/Views/Home/Index.cshtml" />
+      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" />
+      <File FileName="IntexFinal/wwwroot/lib/items/css/main.css" />
+      <File FileName="IntexFinal/wwwroot/css/site.css" />
+      <File FileName="IntexFinal/Models/AppIdentityDBContext.cs" />
+      <File FileName="IntexFinal/Models/EFCrashRepository.cs" />
+      <File FileName="IntexFinal/Controllers/HomeController.cs" Line="54" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +20,9 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Infrastructure" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True">
@@ -31,12 +36,26 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True">
+                        <Node name="bootstrap-grid.css" expanded="True">
+                          <Node name="bootstrap-grid.min.css" expanded="True" />
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
                   <Node name="items" expanded="True">
-                    <Node name="css" expanded="True" />
+                    <Node name="css" expanded="True">
+                      <Node name="scss" expanded="True">
+                        <Node name="base" expanded="True" />
+                        <Node name="common" expanded="True" />
+                        <Node name="pages" expanded="True" />
+                        <Node name="sections" expanded="True" />
+                      </Node>
+                    </Node>
                   </Node>
                 </Node>
               </Node>

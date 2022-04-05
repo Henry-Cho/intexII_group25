@@ -47,6 +47,24 @@ namespace IntexFinal.Controllers
             return View(x);
         }
 
+        [HttpGet]
+        public IActionResult SeverityCalculator()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult FullCalculator()
+        {
+            crash_data cd = new crash_data();
+            return View(cd);
+        }
+        [HttpPost]
+        public IActionResult FullCalculator(crash_data cd)
+        {
+            return View(cd);
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
