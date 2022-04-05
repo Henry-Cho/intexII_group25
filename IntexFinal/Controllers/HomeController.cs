@@ -47,6 +47,19 @@ namespace IntexFinal.Controllers
             return View(x);
         }
 
+        [HttpGet]
+        public IActionResult Form()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Form(crash_data c)
+        {
+            repo.CreateCrashData(c);
+            return RedirectToAction("Incidents");
+        }
+
         public IActionResult Privacy()
         {
             return View();
