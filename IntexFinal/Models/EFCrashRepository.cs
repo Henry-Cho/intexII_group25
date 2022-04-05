@@ -14,7 +14,7 @@ namespace IntexFinal.Models
         }
         public IQueryable<crash_data> Crash_Data => _context.Crash_Data;
 
-        public IQueryable<crash_severity> Crash_Severity => _context.Crash_Severity;
+        //public IQueryable<crash_severity> Crash_Severity => _context.Crash_Severity;
 
         public void CreateCrashData(crash_data cd)
         {

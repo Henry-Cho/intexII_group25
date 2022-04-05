@@ -1,0 +1,38 @@
+﻿@{
+}
+
+@model crash_data
+
+<div class="card card-outline-primary m-1 p-1">
+    <div class="bg-light p-1">
+        <h3>@Model.crash_datetime</h3>
+    </div>
+    <ul>
+        <li>Route: @Model.route</li>
+        <li>City: @Model.city</li>
+        <li>Country: @Model.county_name</li>
+        <li>Severity: @Model.crash_severity_id</li>
+        <li>lat_utm_y: @Model.lat_utm_y</li>
+        <li>long_utm_x: @Model.long_utm_x</li>
+        <li>work_zone_related: @Model.work_zone_related</li>
+        <li>pedestrian_involved: @Model.pedestrian_involved</li>
+        <li>bicyclist_involved: @Model.bicyclist_involved</li>
+        <li>motorcycle_involved: @Model.motorcycle_involved</li>
+        <li>improper_restraint: @Model.improper_restraint</li>
+        <li>unrestrained: @Model.unrestrained</li>
+        <li>dui: @Model.dui</li>
+        <li>intersection_related: @Model.intersection_related</li>
+        <li>wild_animal_related: @Model.wild_animal_related</li>
+        <li>domestic_animal_related: @Model.domestic_animal_related</li>
+        <li>overturn_rollover: @Model.overturn_rollover</li>
+        <li>commercial_motor_veh_involved: @Model.commercial_motor_veh_involved</li>
+        <li>teenage_driver_involved: @Model.teenage_driver_involved</li>
+        <li>older_driver_involved: @Model.older_driver_involved</li>
+        <li>night_dark_condition: @Model.night_dark_condition</li>
+        <li>single_vehicle: @Model.single_vehicle</li>
+        <li>distracted_driving: @Model.distracted_driving</li>
+        <li>drowsy_driving: @Model.drowsy_driving</li>
+        <li>roadway_departure: @Model.roadway_departure</li>
+    </ul>
+</div>
+<br />  
