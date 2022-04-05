@@ -7,7 +7,7 @@ namespace IntexFinal.Models
 {
     public class AppIdentityDBContext : IdentityDbContext<IdentityUser>
     {
-       public AppIdentityDBContext(DbContextOptions options) : base(options)
+       public AppIdentityDBContext(DbContextOptions<AppIdentityDBContext> options) : base(options)
         { }
     }
 }
