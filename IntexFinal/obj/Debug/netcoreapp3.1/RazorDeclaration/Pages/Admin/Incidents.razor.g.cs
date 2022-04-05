@@ -53,15 +53,89 @@ using IntexFinal.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents")]
+#nullable restore
+#line 4 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
+using IntexFinal.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/incidents/{Page:int}")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
-    public partial class Incidents : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Incidents : OwningComponentBase<ICrashRepository>
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 55 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
+       
+        [Parameter]
+        public int page { get; set; }
+
+        PagingInfo pagingInfo = new PagingInfo();
+
+    public ICrashRepository repo => Service;
+
+    public IEnumerable<crash_data> IncidentData { get; set; }
+
+    //protected async override Task OnInitializedAsync()
+    //{
+    //    await UpdateData();
+    //}
+
+    //public async Task UpdateData()
+    //{
+    //    IncidentData = await repo.Crash_Data.ToListAsync();
+
+    //}
+
+    protected override void OnParametersSet()
+    {
+        CreatePagingInfo();
+    }
+
+    public string GetDetailsUrl(long id) => $"/admin/incidents/details/{id}";
+    public string GetEditUrl(long id) => $"/admin/incidents/edit/{id}";
+
+    public async Task RemoveCrashData(crash_data c)
+    {
+        if (!await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete this incident?"))
+        {
+            return;
+        }
+
+        repo.DeleteCrashData(c);
+        CreatePagingInfo();
+    }
+    public void CreatePagingInfo()
+    {
+        var AllData = repo.Crash_Data;
+
+        int PageSize = 10;
+        pagingInfo = new PagingInfo();
+        page = page == 0 ? 1 : page;
+        pagingInfo.CurrentPage = page;
+        pagingInfo.TotalItems = AllData.Count();
+        pagingInfo.ItemsPerPage = PageSize;
+
+        var skip = PageSize * (Convert.ToInt32(page) - 1);
+        IncidentData = AllData.Skip(skip).Take(PageSize).ToList();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JS { get; set; }
     }
 }
 #pragma warning restore 1591
