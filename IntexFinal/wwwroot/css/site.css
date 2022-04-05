@@ -82,3 +82,12 @@ body {
     background: white;
     transition: all 200ms ease-in-out;
 }
+
+.main-menu ul li {
+    min-width: 130px;
+}
+
+.main-menu ul li:hover {
+    background: white;
+    transition: all 100ms ease-in-out;
+}
