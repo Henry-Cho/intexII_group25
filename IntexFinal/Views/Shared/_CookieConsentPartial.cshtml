@@ -6,7 +6,7 @@
     var cookieString = consentFeature?.CreateConsentCookie();
 }
 
-@if (!showBanner)
+@if (showBanner)
 {
     <div id="cookieConsent" class="alert alert-info alert-dismissible fade show mb-0" role="alert">
         We protect your data and use cookies to make your experience better. <a asp-action="Privacy">Learn More</a>.

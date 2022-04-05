@@ -356,3 +356,5 @@ C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\ne
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.dll
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.pdb
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.genruntimeconfig.cache
+C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SeverityCalculator.cshtml.g.cs
+C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\FullCalculator.cshtml.g.cs

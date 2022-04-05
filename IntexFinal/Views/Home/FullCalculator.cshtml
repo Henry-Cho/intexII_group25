@@ -1,0 +1,87 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model crash_data
+
+<div class="container">
+
+    <form method="post" action="FullSeverityCalc">
+
+        <div class="mx-5" style="display: grid; grid-template-columns: .5fr .8fr; grid-template-rows:auto; grid-row-gap: .5rem;">
+            <input type="hidden" value="@Model.crash_ID"/>
+            <label>Date and Time:</label>
+            <input class="form-control" value="@Model.crash_datetime.ToString("yyyy-MM-ddTHH:mm")" type="datetime-local" />
+            <label>Route:</label>
+            <input type="number" class="form-control" value="@Model.route"/>
+            <label>Milepoint:</label>
+            <input type="number" class="form-control" value="@Model.milepoint"/>
+            <label>Main Road Name:</label>
+            <input type="text" class="form-control" value="@Model.main_road_name" />
+            <label>Latitude:</label>
+            <input type="number" class="form-control" value="@Model.lat_utm_y" />
+            <label>Longitude:</label>
+            <input type="number" class="form-control" value="@Model.long_utm_x" />
+            <label>City:</label>
+            <input type="text" class="form-control" value="@Model.city" />
+            <label>County Name:</label>
+            <input type="text" class="form-control" value="@Model.county_name" />
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="ml-5 mt-3" style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows:auto; grid-row-gap: .5rem;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; ">
+                    <label>Work Zone Related:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.work_zone_related"/>
+                    <label>Pedestrian Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.pedestrian_involved" />
+                    <label>Bicyclist Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.bicyclist_involved" />
+                    <label>Motorcycle Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.motorcycle_involved" />
+                    <label>Improper Restraint:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.improper_restraint" />
+                    <label>Unrestrained:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.unrestrained" />
+                    <label>DUI:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.dui" />
+                    <label>Intersection Related:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.intersection_related" />
+                    <label>Wild Animal Related:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.wild_animal_related" />
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; ">
+                    <label>Domestic Animal Related:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.domestic_animal_related" />
+
+                    <label>Overturn Rollover:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.overturn_rollover" />
+                    <label>Commercial Motor Vehicle Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.commercial_motor_veh_involved" />
+                    <label>Teenage Driver Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.teenage_driver_involved" />
+                    <label>Older Driver Involved:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.older_driver_involved" />
+                    <label>Night Dark Condition:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.night_dark_condition" />
+                    <label>Single Vehicle:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.single_vehicle" />
+
+                    <label>Distracted Driving:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.distracted_driving" />
+
+                    <label>Drowsy Driving:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.drowsy_driving" />
+
+                    <label>Roadway Departure:</label>
+                    <input type="checkbox" style="align-self: center;" asp-for="@Model.roadway_departure" />
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center my-3">
+            <button type="submit" class="btn boxed-btn mr-2">Calculate Crash Severity</button>
+            <NavLink class="btn dark-btn" asp-action="FullCalculator" asp-controller="Home">Clear</NavLink>
+        </div>
+
+    </form>
+</div>
