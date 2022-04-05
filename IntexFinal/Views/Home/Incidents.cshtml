@@ -4,20 +4,36 @@
 
 @model IncidentsViewModel
 
-@if (Model.Incidents?.Count() > 0)
-{
-    foreach (crash_data c in Model.Incidents)
-    {
-        <partial name="IncidentSummary" model="c" />
-    }
-}
-else
-{
-    <div>No data</div>
-}
+<div class="hero-area hero-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 offset-lg-2">
+                @if (Model.Incidents?.Count() > 0)
+                { 
+                    foreach (crash_data c in Model.Incidents)
+                    {
+                            <partial name="IncidentSummary" model="c" />
+                    }
+                    <div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
+                         page-class="btn" page-class-normal="btn-outline-dark"
+                         page-class-selected="btn-primary" class="btn-group pull-right m-1">
+                    </div>
+                }
+                else
+                {
+                <div class="hero-text">
+                    <div class="hero-text-tablecell text-center">
+                        <p class="subtitle">Sorry</p>
+                        <h1>No Incident Data</h1>
+                        <div class="hero-btns">
+                            <a asp-controller="Home" asp-action="Index" class="boxed-btn">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+                }
 
-<div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
-     page-class="btn" page-class-normal="btn-outline-dark"
-     page-class-selected="btn-primary" class="btn-group pull-right m-1">
 
+            </div>
+        </div>
+    </div>
 </div>
