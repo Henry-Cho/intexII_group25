@@ -77,7 +77,7 @@ using Microsoft.JSInterop;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 55 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Incidents.razor"
+#line 57 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Incidents.razor"
        
         [Parameter]
         public int page { get; set; }
@@ -121,7 +121,7 @@ using Microsoft.JSInterop;
     {
         var AllData = repo.Crash_Data;
 
-        int PageSize = 10;
+        int PageSize = 7;
         pagingInfo = new PagingInfo();
         page = page == 0 ? 1 : page;
         pagingInfo.CurrentPage = page;

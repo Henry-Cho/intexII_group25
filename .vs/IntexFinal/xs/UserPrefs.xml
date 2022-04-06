@@ -1,27 +1,24 @@
 ﻿<Properties StartupConfiguration="{233D5AC2-B319-43E5-9501-5604875DE4D0}|Default">
   <MonoDevelop.Ide.ItemProperties.IntexFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Views/Shared/IncidentSummary.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Controllers/HomeController.cs">
     <Files>
-      <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" Line="50" Column="69" />
-      <File FileName="IntexFinal/Views/Home/Incidents.cshtml" />
-      <File FileName="IntexFinal/Views/Home/Index.cshtml" />
-      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" Line="6" Column="14" />
-      <File FileName="IntexFinal/wwwroot/css/site.css" />
-      <File FileName="IntexFinal/Models/AppIdentityDBContext.cs" />
-      <File FileName="IntexFinal/Models/EFCrashRepository.cs" />
-      <File FileName="IntexFinal/Controllers/HomeController.cs" />
-      <File FileName="IntexFinal/appsettings.json" />
+      <File FileName="IntexFinal/Pages/Admin/Paging.razor" Line="40" Column="22" />
+      <File FileName="IntexFinal/Pages/Admin/Incidents.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IntexFinal" expanded="True">
-            <Node name="IntexFinal" expanded="True">
+            <Node name="IntexFinal" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="IncidentSummary.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />

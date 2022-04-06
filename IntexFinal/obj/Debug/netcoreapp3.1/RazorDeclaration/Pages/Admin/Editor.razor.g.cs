@@ -63,12 +63,12 @@ using IntexFinal.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 126 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Editor.razor"
+#line 187 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Editor.razor"
        
-        [Parameter]
-        public long Id { get; set; } = 0;
+    [Parameter]
+    public long Id { get; set; } = 0;
 
-public string ThemeColor => Id == 0 ? "primary" : "warning";
+    public string ThemeColor => Id == 0 ? "lightorange" : "darkorange";
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
     public crash_data b { get; set; } = new crash_data();
