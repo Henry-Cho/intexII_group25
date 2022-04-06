@@ -214,3 +214,129 @@ text-shadow: 0px 1px 0px rgba(255,255,255, 1);
     color: #f0f0f0;
     text-shadow: 0px 0px 3px rgba(0,0,0, .5);
 }
+
+a.boxed-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    a.boxed-btn:hover {
+        background-color: #051922;
+        color: #F28123;
+    }
+
+a.bordered-btn {
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #F28123;
+    padding: 10px 20px;
+}
+
+    a.bordered-btn:hover {
+        background-color: #F28123 !important;
+        color: #fff;
+    }
+
+button.boxed-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    button.boxed-btn:hover {
+        background-color: #051922;
+        color: #F28123;
+    }
+
+button.bordered-btn {
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #F28123;
+    padding: 10px 20px;
+}
+
+    button.bordered-btn:hover {
+        background-color: #F28123 !important;
+        color: #fff;
+    }
+button.btn-lightorange {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F29A2E;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    button.btn-lightorange:hover {
+        background-color: #051922;
+        color: #F28123;
+    }
+
+.bg-lightorange {
+    background-color: #F29A2E;
+}
+
+.bg-darkorange {
+    background-color: #F28123;
+}
+
+button.btn-darkorange {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    button.btn-darkorange:hover {
+        background-color: #051922;
+        color: #F28123;
+    }
+
+a.dark-btn {
+    border-radius: 50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: #051922;
+    border: 2px solid #051922;
+    padding: 10px 20px;
+}
+
+    a.dark-btn:hover {
+        background-color: #051922 !important;
+        color: #fff;
+    }
