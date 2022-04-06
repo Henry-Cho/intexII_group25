@@ -121,6 +121,11 @@ namespace IntexFinal.Controllers
                 {
                     return Redirect(loginModel?.ReturnUrl ?? "/Admin");
                 }
+                else if ((await signInManager.PasswordSignInAsync(user, loginModel.Password, false, false)).RequiresTwoFactor)
+                {
+                    return Redirect("/2fa");
+                }
+
             }
 
             ModelState.AddModelError("", "Invalid name or password");
