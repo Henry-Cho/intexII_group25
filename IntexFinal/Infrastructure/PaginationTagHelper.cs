@@ -40,36 +40,105 @@ namespace IntexFinal.Infrastructure
 
             // add element in the target element (div)
             TagBuilder final = new TagBuilder("div");
+            string anchorInnerHtml = "";
 
-            // append a tag with a url & action (Index)
-            for (int i = 1; i <= PageList.TotalPages; i++)
+            for (int i = PageList.CurrentPage - 3; i <= PageList.TotalPages; i++)
             {
-                // declare a tagbuilder instance and assign a new instance with a tag
-                TagBuilder tb = new TagBuilder("a");
-                // add Attribute (href) with action & page number
-                tb.Attributes["href"] = uh.Action(PageAction, new { pageNum = i });
-                // put the page number as string inside of the a tag
-                tb.InnerHtml.Append(i.ToString());
-                // CSS styling
-                if (PageClassesEnabled)
+                if (i <= 0)
                 {
-                    tb.AddCssClass(PageClass);
-                    tb.AddCssClass(i == PageList.CurrentPage
-                    ? PageClassSelected : PageClassNormal);
+                    continue;
                 }
-                if (i != PageList.TotalPages)
+                if (i > PageList.CurrentPage + 3 || (i == PageList.CurrentPage - 3))
                 {
-                    final.InnerHtml.AppendHtml(tb);
-                    final.InnerHtml.AppendHtml(" ");
+                    TagBuilder tag = new TagBuilder("a");
+                    anchorInnerHtml = "...";
+
+                    if (anchorInnerHtml == "..")
+                        tag.Attributes["href"] = "#";
+                    else if (i == 1)
+                        tag.Attributes["href"] = "/page1";
+                    else
+                        tag.Attributes["href"] = "/page" + i;
+
+                    if (PageClassesEnabled)
+                    {
+                        tag.AddCssClass(PageClass);
+                        tag.AddCssClass(i == PageList.CurrentPage ? PageClassSelected : "");
+                    }
+
+                    tag.InnerHtml.Append(anchorInnerHtml);
+
+                    if (anchorInnerHtml != "")
+                    {
+                        final.InnerHtml.AppendHtml(tag);
+                    }
+                    if (i > PageList.CurrentPage + 3)
+                    {
+                        break;
+                    }
+
                 }
                 else
                 {
-                    final.InnerHtml.AppendHtml(tb);
+                    TagBuilder tag = new TagBuilder("a");
+
+                    anchorInnerHtml = AnchorInnerHtml(i, PageList);
+
+                    if (anchorInnerHtml == "..")
+                        tag.Attributes["href"] = "#";
+                    else if (i == 1)
+                        tag.Attributes["href"] = "/page1";
+                    else
+                        tag.Attributes["href"] = "/page" + i;
+
+                    if (PageClassesEnabled)
+                    {
+                        tag.AddCssClass(PageClass);
+                        tag.AddCssClass(i == PageList.CurrentPage ? PageClassSelected : "");
+                    }
+
+                    tag.InnerHtml.Append(anchorInnerHtml);
+
+                    if (anchorInnerHtml != "")
+                        final.InnerHtml.AppendHtml(tag);
                 }
 
+                // append the final's innerhtml in the taghelperoutput
+                tho.Content.AppendHtml(final.InnerHtml);
             }
-            // append the final's innerhtml in the taghelperoutput
-            tho.Content.AppendHtml(final.InnerHtml);
+
+        }
+
+        private string AnchorInnerHtml(int i, PageInfo pagingInfo)
+        {
+            string anchorInnerHtml = "";
+            if (pagingInfo.TotalPages <= 10)
+                anchorInnerHtml = i.ToString();
+            else
+            {
+                if (pagingInfo.CurrentPage <= 5)
+                {
+                    if ((i <= 8) || (i == pagingInfo.TotalPages))
+                        anchorInnerHtml = i.ToString();
+                    else if (i == pagingInfo.TotalPages - 1)
+                        anchorInnerHtml = "..";
+                }
+                else if ((pagingInfo.CurrentPage > 5) && (pagingInfo.TotalPages - pagingInfo.CurrentPage >= 5))
+                {
+                    if ((i == 1) || (i == pagingInfo.TotalPages) || ((pagingInfo.CurrentPage - i >= -3) && (pagingInfo.CurrentPage - i <= 3)))
+                        anchorInnerHtml = i.ToString();
+                    else if ((i == pagingInfo.CurrentPage - 4) || (i == pagingInfo.CurrentPage + 4))
+                        anchorInnerHtml = "..";
+                }
+                else if (pagingInfo.TotalPages - pagingInfo.CurrentPage < 5)
+                {
+                    if ((i == 1) || (pagingInfo.TotalPages - i <= 7))
+                        anchorInnerHtml = i.ToString();
+                    else if (pagingInfo.TotalPages - i == 8)
+                        anchorInnerHtml = "..";
+                }
+            }
+            return anchorInnerHtml;
         }
 
     }

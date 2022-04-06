@@ -362,3 +362,5 @@ C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/ne
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Paging.razor.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/FullCalculator.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/SeverityCalculator.cshtml.g.cs
