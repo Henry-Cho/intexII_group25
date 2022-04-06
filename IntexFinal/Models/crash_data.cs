@@ -8,6 +8,10 @@ namespace IntexFinal.Models
 {
     public class crash_data
     {
+        public crash_data()
+        {
+
+        }
         [Key]
         [Required]
         public int crash_ID { get; set; }

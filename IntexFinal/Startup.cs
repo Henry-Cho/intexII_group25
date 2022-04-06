@@ -54,9 +54,9 @@ namespace IntexFinal
             services.AddRazorPages();
             services.AddSession();
             services.AddServerSideBlazor();
-            services.AddSingleton<InferenceSession>(
-              new InferenceSession("Models/a.onnx")
-            );
+            //services.AddSingleton<InferenceSession>(
+            //  new InferenceSession("Models/a.onnx")
+            //);
 
         }
 
@@ -84,6 +84,11 @@ namespace IntexFinal
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "FilteredPaging",
+                    pattern: "FilteredIncidents/page{pageNum}",
+                    defaults: new { Controller = "Home", action = "FilteredIncidents", pageNum = 1 }
+                );
                 endpoints.MapControllerRoute(
                     name: "Paging",
                     pattern: "page{pageNum}",
