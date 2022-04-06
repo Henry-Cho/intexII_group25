@@ -135,6 +135,12 @@ namespace IntexFinal.Controllers
             return View(p);
         }
 
+        [HttpGet]
+        public IActionResult Stats()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
