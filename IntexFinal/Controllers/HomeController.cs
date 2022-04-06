@@ -76,6 +76,60 @@ namespace IntexFinal.Controllers
             return RedirectToAction("Result", prediction);
         }
         [HttpGet]
+        public IActionResult CityCalc()
+        {
+            crash_prediction cd = new crash_prediction();
+            return View(cd);
+        }
+        [HttpPost]
+        public IActionResult CityCalc(crash_prediction data)
+        {
+            var result = _session.Run(new List<NamedOnnxValue>
+            {
+                NamedOnnxValue.CreateFromTensor("float_input", data.AsTensor())
+            });
+            Tensor<float> score = result.First().AsTensor<float>();
+            var prediction = new Prediction { PredictedValue = score.First() };
+            result.Dispose();
+            return RedirectToAction("Result", prediction);
+        }
+        [HttpGet]
+        public IActionResult SpecialCalc()
+        {
+            crash_prediction cd = new crash_prediction();
+            return View(cd);
+        }
+        [HttpPost]
+        public IActionResult SpecialCalc(crash_prediction data)
+        {
+            var result = _session.Run(new List<NamedOnnxValue>
+            {
+                NamedOnnxValue.CreateFromTensor("float_input", data.AsTensor())
+            });
+            Tensor<float> score = result.First().AsTensor<float>();
+            var prediction = new Prediction { PredictedValue = score.First() };
+            result.Dispose();
+            return RedirectToAction("Result", prediction);
+        }
+        [HttpGet]
+        public IActionResult DistCalc()
+        {
+            crash_prediction cd = new crash_prediction();
+            return View(cd);
+        }
+        [HttpPost]
+        public IActionResult DistCalc(crash_prediction data)
+        {
+            var result = _session.Run(new List<NamedOnnxValue>
+            {
+                NamedOnnxValue.CreateFromTensor("float_input", data.AsTensor())
+            });
+            Tensor<float> score = result.First().AsTensor<float>();
+            var prediction = new Prediction { PredictedValue = score.First() };
+            result.Dispose();
+            return RedirectToAction("Result", prediction);
+        }
+        [HttpGet]
         public IActionResult Result(Prediction p)
         {
             return View(p);

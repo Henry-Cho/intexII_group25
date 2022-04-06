@@ -340,3 +340,27 @@ a.dark-btn {
         background-color: #051922 !important;
         color: #fff;
     }
+.home-box {
+    border: 4px solid #F28123;
+    border-radius: .5rem;
+    width: 16rem;
+    height: 16rem;
+    margin-right: 2rem;
+}
+
+.home-icon {
+    width: 12rem;
+    height: 12rem;
+    stroke-width: 1;
+}
+
+.home-box:hover {
+    opacity: 0.6 !important;
+    cursor: pointer !important;
+}
+.myhero-bg {
+    background-image: url(/img/calculator.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

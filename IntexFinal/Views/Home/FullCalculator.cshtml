@@ -6,11 +6,11 @@
 @model crash_prediction
 
 <div class="container">
-
+    <h3 class="text-center my-3">Enter All Crash Data To Calculate The Crash Severity!</h3>
     <form method="post" action="FullCalculator">
         <div class="d-flex justify-content-center">
-            <div class="mt-3" style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows:auto; grid-row-gap: .5rem;">
-                    <label>Route:</label>
+            <div class="mt-3" style="display: grid; grid-template-columns: 1fr 3fr; grid-template-rows:auto; grid-row-gap: .5rem;">
+                    <label class="mr-3">Route:</label>
                     <select class="form-control" id="Route" onchange="ChangeSelectIntoFloat('Route')">
                         <option hidden value="Default">Route Unknown</option>
                         <option value="Route89">Route 89</option>
@@ -18,19 +18,19 @@
                     </select>
                     <input type="number" style="align-self: center;" id="Route89" asp-for="@Model.route_89" hidden />
                     <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
-                    <label>Milepoint:</label>
+                    <label class="mr-3">Milepoint:</label>
                     <select class="form-control" id="Milepoint" onchange="ChangeSelectIntoFloat('Milepoint')">
                         <option hidden value="Default">Milepoint Unknown</option>
                         <option value="MilepointOther">Random Milepoint</option>
                     </select>
                     <input type="number" style="align-self: center;" id="MilepointOther" asp-for="@Model.milepoint_Other" hidden />
-                    <label>Main Road Name:</label>
+                    <label class="mr-3">Main Road Name:</label>
                     <select class="form-control" id="MainRoad" onchange="ChangeSelectIntoFloat('MainRoad')">
                         <option hidden value="Default">Main Road Unknown</option>
                         <option value="MainRoadOther">Random Main Road</option>
                     </select>
                     <input type="number" style="align-self: center;" id="MainRoadOther" asp-for="@Model.main_road_name_Other" hidden />
-                    <label>City:</label>
+                    <label class="mr-3">City:</label>
                     <select class="form-control" id="City" onchange="ChangeSelectIntoFloat('City')">
                         <option hidden value="Default">City Unknown</option>
                         <option value="CitySaltLake">Salt Lake</option>
@@ -44,7 +44,7 @@
                     <input type="number" style="align-self: center;" id="CitySaltLake" asp-for="@Model.city_SALT_LAKE_CITY" hidden />
                     <input type="number" style="align-self: center;" id="CitySandy" asp-for="@Model.city_SANDY" hidden />
                     <input type="number" style="align-self: center;" id="CityWestValley" asp-for="@Model.city_WEST_VALLEY_CITY" hidden />
-                    <label>County:</label>
+                    <label class="mr-3">County:</label>
                     <select class="form-control" id="County" onchange="ChangeSelectIntoFloat('County')">
                         <option hidden value="Default">County Unknown</option>
                         <option value="CountySaltLake">Salt Lake County</option>
@@ -58,11 +58,12 @@
                     <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
             </div>
         </div>
-        <div class="d-flex">
-            <div class="d-flex flex-column">
+        <h4 class="text-center mt-4">Select Any Special Crash Attributes:</h4>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="d-flex flex-column mr-5">
                 <div class="d-flex align-items-center">
                     <input name="pedestrian" type="checkbox" value="PedestrianInvolved" onchange="ChangeCheckIntoFloat(this.name, 'PedestrianInvolved')" />
-                    <label class="ml-3" for="pedestrian"  >Pedestrian Involved</label>
+                    <label class="ml-3" for="pedestrian">Pedestrian Involved</label>
                     <input type="number" style="align-self: center;" id="PedestrianInvolved" asp-for="@Model.pedestrian_involved" hidden />
                 </div>
                 <div class="d-flex align-items-center">
@@ -95,28 +96,29 @@
                 <div class="d-flex align-items-center">
 
                     <input name="intersection" type="checkbox" value="IntersectionRelated" onchange="ChangeCheckIntoFloat(this.name, 'IntersectionRelated')" />
-                    <label class="ml-3" for="intersection">Intersection Related:</label>
+                    <label class="ml-3" for="intersection">Intersection Related</label>
                     <input type="number" style="align-self: center;" id="IntersectionRelated" asp-for="@Model.intersection_related" hidden />
                 </div>
+                <div class="d-flex align-items-center">
+                    <input name="wild" type="checkbox" value="WildAnimalRelated" onchange="ChangeCheckIntoFloat(this.name, 'WildAnimalRelated')" />
+                    <label class="ml-3" for="wild">Wild Animal Related</label>
+                    <input type="number" style="align-self: center;" id="WildAnimalRelated" asp-for="@Model.wild_animal_related" hidden />
+                </div>
+                <div class="d-flex align-items-center">
+
+                    <input name="domestic" type="checkbox" value="DomesticRelated" onchange="ChangeCheckIntoFloat(this.name, 'DomesticRelated')" />
+                    <label class="ml-3" for="domestic">Domestic Animal Related</label>
+                    <input type="number" style="align-self: center;" id="DomesticRelated" asp-for="@Model.domestic_animal_related" hidden />
+                </div>
+                <div class="d-flex align-items-center">
+
+                    <input name="work" type="checkbox" value="WorkZone" onchange="ChangeCheckIntoFloat(this.name, 'WorkZone')" />
+                    <label class="ml-3" for="work">Work Zone Related</label>
+                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related_Other" hidden />
+                </div>
             </div>
-            <div class="d-flex flex-column">
-                    <div class="d-flex align-items-center">
-                        <input name="wild" type="checkbox" value="WildAnimalRelated" onchange="ChangeCheckIntoFloat(this.name, 'WildAnimalRelated')" />
-                        <label class="ml-3" for="wild">Wild Animal Related</label>
-                        <input type="number" style="align-self: center;" id="WildAnimalRelated" asp-for="@Model.wild_animal_related" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
+            <div class="d-flex flex-column ml-5">
 
-                        <input name="domestic" type="checkbox" value="DomesticRelated" onchange="ChangeCheckIntoFloat(this.name, 'DomesticRelated')" />
-                        <label class="ml-3" for="domestic">Domestic Animal Related</label>
-                        <input type="number" style="align-self: center;" id="DomesticRelated" asp-for="@Model.domestic_animal_related" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="work" type="checkbox" value="WorkZone" onchange="ChangeCheckIntoFloat(this.name, 'WorkZone')" />
-                        <label class="ml-3" for="work">Work Zone Related</label>
-                        <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related_Other" hidden />
-                    </div>
                     <div class="d-flex align-items-center">
 
                         <input name="overturn" type="checkbox" value="Overturn" onchange="ChangeCheckIntoFloat(this.name, 'Overturn')" />
@@ -174,7 +176,7 @@
             </div>
         <div class="d-flex justify-content-center my-3">
             <button type="submit" class="btn boxed-btn mr-2">Calculate Crash Severity</button>
-            <NavLink class="btn dark-btn" asp-action="FullCalculator" asp-controller="Home">Clear</NavLink>
+            <a class="btn dark-btn" asp-action="FullCalculator" asp-controller="Home">Clear</a>
         </div>
     </form>
 </div>
