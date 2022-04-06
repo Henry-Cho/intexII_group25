@@ -9,15 +9,17 @@
         <div class="row">
             <div class="col-lg-9 offset-lg-2">
                 @if (Model.Incidents?.Count() > 0)
-                { 
-                    foreach (crash_data c in Model.Incidents)
+                {
+                <div class="inc-group">
+                    @foreach (crash_data c in Model.Incidents)
                     {
-                            <partial name="IncidentSummary" model="c" />
+                    <partial name="IncidentSummary" model="c" />
                     }
                     <div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
                          page-class="btn" page-class-normal="btn-outline-dark"
-                         page-class-selected="btn-primary" class="btn-group pull-right m-1">
+                         page-class-selected="btn-primary" class="btn-group pull-right m-1 inc-btn-group">
                     </div>
+                </div>
                 }
                 else
                 {
