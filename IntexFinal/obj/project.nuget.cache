@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V7zVN2plSDD0GLRDmkFiMdiBiy/ZHZbpDDCYDRi87JETz5hYqKFMpIckhm2/dYSmrRs9ZUo6LKdi1iNg+Txq4Q==",
+  "dgSpecHash": "tiOK6gmE7LFtIZoUw81K6yntDZTVm+9KArXD4iSyx3xg+IPj0pKiphr5whaTO5IR4VqL05Hbj1GETfAB4s80eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "C:\\Users\\annad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.22\\microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
     "C:\\Users\\annad\\.nuget\\packages\\microsoft.extensions.options\\3.1.22\\microsoft.extensions.options.3.1.22.nupkg.sha512",
     "C:\\Users\\annad\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512",
+    "C:\\Users\\annad\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.11.0\\microsoft.ml.onnxruntime.1.11.0.nupkg.sha512",
+    "C:\\Users\\annad\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.11.0\\microsoft.ml.onnxruntime.managed.1.11.0.nupkg.sha512",
     "C:\\Users\\annad\\.nuget\\packages\\mysqlconnector\\0.69.10\\mysqlconnector.0.69.10.nupkg.sha512",
     "C:\\Users\\annad\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\annad\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.7\\pomelo.entityframeworkcore.mysql.3.2.7.nupkg.sha512",
