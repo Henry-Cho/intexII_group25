@@ -1742,24 +1742,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/hyungseokcho/.nuget/packages/": {}
+    "C:\\Users\\annad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
+      "projectUniqueName": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
       "projectName": "IntexFinal",
-      "projectPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
-      "packagesPath": "/Users/hyungseokcho/.nuget/packages/",
-      "outputPath": "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/",
+      "projectPath": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
+      "packagesPath": "C:\\Users\\annad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hyungseokcho/.config/NuGet/NuGet.Config"
+        "C:\\Users\\annad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1825,7 +1827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
