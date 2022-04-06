@@ -39,12 +39,22 @@ namespace IntexFinal
             services.AddControllersWithViews();
 
             services.AddDbContext<AppIdentityDBContext>(options =>
-            {
-                options.UseSqlite(Configuration.GetConnectionString("IdentityConnection"));
-            });
+             options.UseMySql(Configuration["ConnectionStrings:IdentityConnection"]));
 
             services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<AppIdentityDBContext>();
+                .AddEntityFrameworkStores<AppIdentityDBContext>()
+                .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Default Password settings (increased length for extra strenth)
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequiredLength = 12;
+                options.Password.RequiredUniqueChars = 1;
+            });
 
             services.AddDbContext<CrashDBContext>(options =>
             {
