@@ -32,7 +32,7 @@ namespace IntexFinal.Controllers
 
         public IActionResult Incidents(int pageNum = 1)
         {
-            int pageSize = 20;
+            int pageSize = 7;
 
             var x = new IncidentsViewModel
             {
