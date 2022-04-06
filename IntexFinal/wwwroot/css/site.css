@@ -92,62 +92,26 @@ body {
     transition: all 100ms ease-in-out;
 }
 
-.boxed-btn {
-    font-family: 'Poppins', sans-serif;
-    display: inline-block;
-    background-color: #F28123;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 50px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
+.inc-group {
+    padding: 100px 0 0 0;
+    height: 100%;
+    overflow-y: scroll;
 }
 
-.boxed-btn:hover {
-    background-color: #051922;
-    color: #F28123;
+.inc-btn-group {
+    max-width: 31px;
+    max-height: 31px;
 }
 
-.bordered-btn {
-    border-radius: 50px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    font-family: 'Poppins', sans-serif;
-    display: inline-block;
-    color: #fff;
-    border: 2px solid #F28123;
-    padding: 7px 20px;
+.inc-card {
+    height: 250px !important;
 }
 
-.bordered-btn:hover {
-    background-color: #F28123;
-    color: #fff;
+.inc-card > ul {
+    display: none;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
-.home-box {
-    border: 4px solid #F28123;
-    border-radius: .5rem;
-    width: 16rem;
-    height: 16rem !important;
-    margin-right: 2rem;
-}
-
-.home-icon {
-    width: 12rem;
-    height: 12rem;
-    stroke-width: 1;
-}
-
-.home-box:hover {
-    opacity: 0.6 !important;
-    cursor: pointer !important;
-}
-
-.myhero-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/calculator.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.inc-card:hover > ul {
+    display:block;
 }
