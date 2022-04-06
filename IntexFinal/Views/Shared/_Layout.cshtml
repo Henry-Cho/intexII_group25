@@ -47,7 +47,8 @@
                             <ul>
                                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                                 <li><a asp-controller="Home" asp-action="Incidents">Incidents</a></li>
-                                <li><a href="#">Predictions</a></li>                            </ul>
+                                <li><a asp-controller="Home" asp-action="SeverityCalculator">Severity Calculator</a></li>
+                            </ul>
                         </nav>
                         <!-- menu end -->
                     </div>
@@ -55,42 +56,11 @@
             </div>
         </div>
     </div>
+    <div class="bg-dark" style="height:100px;"></div>
+    <partial name="_CookieConsentPartial" />
     <!-- end header -->
     @RenderBody()
     <!-- footer -->
-    <div class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-box about-widget">
-                        <h2 class="widget-title">About Incidents in Utah</h2>
-                        <p>
-                            Utah has a unique set of challenges when it comes to motor vehicle accidents.
-                            For example, although alcohol is still a problem, it may be less of a problem in
-                            Utah than distracted driving. Lawmakers need to understand these unique challenges
-                            better in order to regulate effectively.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="footer-box about-widget">
-                        <iframe width="500" height="350" src="https://udps.numetric.net/utah-crash-summary#/f9f2362a-62ef-4365-a867-660e3d4fe8e6" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-box about-widget">
-                        <h2 class="widget-title">Purpose of this Site</h2>
-                        <p>
-                            There has been an increase of car crashes in Utah the past few years.
-                            There are many possible reasons for this increase, and with data we can
-                            start to see the bigger picture. Throughout this website, you will be able to review
-                            crash statistics, interact with predictive models, and learn how to help.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- end footer -->
     <!-- copyright -->
     <div class="copyright">
@@ -98,7 +68,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <p>
-                        Yeet &copy; 2022 - Group 2.5 - <a href="https://www.privacypolicies.com/live/b3b5be99-8f44-4b74-8e4e-c3ed8de4e4a1">Privacy</a>
+                        Yeet &copy; 2022 - Group 2.5 - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
                     </p>
                 </div>
                 <div class="col-lg-6 text-right col-md-12">
@@ -107,8 +77,10 @@
             </div>
         </div>
     </div>
-    <!-- end copyright -->
-    <!-- jquery -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
     <script src="~/lib/items/js/jquery-1.11.3.min.js"></script>
     <!-- bootstrap -->
     <script src="~/lib/items/bootstrap/js/bootstrap.min.js"></script>
@@ -128,7 +100,9 @@
     <script src="~/lib/items/js/sticker.js"></script>
     <!-- main js -->
     <script src="~/lib/items/js/main.js"></script>
-
+    <script src="~/js/site.js"></script>
+    <!-- end copyright -->
+    <!-- jquery -->
     <!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">

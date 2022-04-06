@@ -8,16 +8,21 @@ using Microsoft.Extensions.Logging;
 using IntexFinal.Models;
 using IntexFinal.Models.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.ML.OnnxRuntime;
+using Microsoft.ML.OnnxRuntime.Tensors;
 
 namespace IntexFinal.Controllers
 {
     public class HomeController : Controller
     {
         private ICrashRepository repo;
+        private InferenceSession _session;
 
-        public HomeController(ICrashRepository context)
+
+        public HomeController(ICrashRepository context, InferenceSession session)
         {
             repo = context;
+            _session = session;
         }
 
         public IActionResult Index()
@@ -27,7 +32,7 @@ namespace IntexFinal.Controllers
 
         public IActionResult Incidents(int pageNum = 1)
         {
-            int pageSize = 20;
+            int pageSize = 7;
 
             var x = new IncidentsViewModel
             {
@@ -46,6 +51,36 @@ namespace IntexFinal.Controllers
 
             return View(x);
         }
+
+        [HttpGet]
+        public IActionResult SeverityCalculator()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult FullCalculator()
+        {
+            crash_prediction cd = new crash_prediction();
+            return View(cd);
+        }
+        [HttpPost]
+        public IActionResult FullCalculator(crash_prediction data)
+        {
+            var result = _session.Run(new List<NamedOnnxValue>
+            {
+                NamedOnnxValue.CreateFromTensor("float_input", data.AsTensor())
+            });
+            Tensor<float> score = result.First().AsTensor<float>();
+            var prediction = new Prediction { PredictedValue = score.First() };
+            result.Dispose();
+            return RedirectToAction("Result", prediction);
+        }
+        [HttpGet]
+        public IActionResult Result(Prediction p)
+        {
+            return View(p);
+        }
+
 
         public IActionResult Privacy()
         {
