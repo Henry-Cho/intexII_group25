@@ -340,3 +340,71 @@ a.dark-btn {
         background-color: #051922 !important;
         color: #fff;
     }
+.home-box {
+    border: 4px solid #F28123;
+    border-radius: .5rem;
+    width: 16rem;
+    height: 16rem;
+    margin-right: 2rem;
+}
+
+.home-icon {
+    width: 12rem;
+    height: 12rem;
+    stroke-width: 1;
+}
+
+.home-box:hover {
+    opacity: 0.6 !important;
+    cursor: pointer !important;
+}
+.myhero-bg {
+    background-image: url(/img/calculator.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cityhero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/city.jpg');
+    /* Set a specific height */
+    height: 25%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.disthero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/distracted.jpg');
+    /* Set a specific height */
+    height: 25%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.specialhero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/workzone.jpg');
+    /* Set a specific height */
+    height: 20%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
