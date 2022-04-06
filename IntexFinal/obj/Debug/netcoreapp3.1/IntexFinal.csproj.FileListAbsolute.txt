@@ -405,3 +405,6 @@ C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\ne
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.pdb
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.genruntimeconfig.cache
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.AssemblyReference.cache
+C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\CityCalc.cshtml.g.cs
+C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SpecialCalc.cshtml.g.cs
+C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\DistCalc.cshtml.g.cs

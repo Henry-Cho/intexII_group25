@@ -1,0 +1,148 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model crash_prediction
+
+    <div class="disthero-image">
+        <div class="hero-text">
+            <h1 class="mt-2" style="font-size: 4.75rem;">Severity Calculator</h1>
+        </div>
+    </div>
+    <div class="bg-dark w-100 mb-0 py-3">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="bg-white p-3 w-75" style="border: solid 5px #F28123; border-radius: .5rem;">
+                    <div class="h-auto d-flex justify-content-center">
+                        <h3 class="text-center my-3 w-75">Select an Impediment Type to See How Dangerous It Can Be!</h3>
+                    </div>
+                    <form method="post" action="FullCalculator">
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-3" style="display: grid; grid-template-columns: 1fr 3fr; grid-template-rows:auto; grid-row-gap: .5rem;">
+                                <label class="mr-3" style="align-self: center;">Driving Impediment:</label>
+                                <select class="form-control" id="Distraction" onchange="ChangeSelectIntoFloat('Distraction')">
+                                    <option hidden value="Default">No Impediments</option>
+                                    <option value="Drowsy">Drowsy Driving</option>
+                                    <option value="DUI">DUI</option>
+                                    <option value="DistractedDriving">On Phone</option>
+                                    <option value="DistractedDriving">Eating</option>
+                                    <option value="DistractedDriving">Other Distractions</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="Route89" asp-for="@Model.route_89" hidden />
+                                <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
+                                <input type="number" style="align-self: center;" id="MilepointOther" asp-for="@Model.milepoint_Other" hidden />
+                                <input type="number" style="align-self: center;" id="MainRoadOther" asp-for="@Model.main_road_name_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CityOutside" asp-for="@Model.city_OUTSIDE_CITY_LIMITS" hidden />
+                                <input type="number" style="align-self: center;" id="CityOther" asp-for="@Model.city_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CitySaltLake" asp-for="@Model.city_SALT_LAKE_CITY" hidden />
+                                <input type="number" style="align-self: center;" id="CitySandy" asp-for="@Model.city_SANDY" hidden />
+                                <input type="number" style="align-self: center;" id="CityWestValley" asp-for="@Model.city_WEST_VALLEY_CITY" hidden />
+                                <input type="number" style="align-self: center;" id="CountyOther" asp-for="@Model.county_name_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CountySaltLake" asp-for="@Model.county_name_SALT_LAKE" hidden />
+                                <input type="number" style="align-self: center;" id="CountyUtah" asp-for="@Model.county_name_UTAH" hidden />
+                                <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex flex-column mr-5">
+                                <div class="d-flex align-items-center">
+                                    <input type="number" style="align-self: center;" id="PedestrianInvolved" asp-for="@Model.pedestrian_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input type="number" style="align-self: center;" id="BicyclistInvolved" asp-for="@Model.bicyclist_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input type="number" style="align-self: center;" id="MotorcycleInvolved" asp-for="@Model.motorcycle_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input type="number" style="align-self: center;" id="ImproperRestraint" asp-for="@Model.improper_restraint" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="Unrestrained" asp-for="@Model.unrestrained" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="DUI" asp-for="@Model.dui" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="IntersectionRelated" asp-for="@Model.intersection_related" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="WildAnimalRelated" asp-for="@Model.wild_animal_related" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="DomesticRelated" asp-for="@Model.domestic_animal_related" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related_Other" hidden />
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column ml-5">
+
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="Overturn" asp-for="@Model.overturn_rollover" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+
+                                    <input type="number" style="align-self: center;" id="Commercial" asp-for="@Model.commercial_motor_veh_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="Teenage" asp-for="@Model.teenage_driver_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="Older" asp-for="@Model.older_driver_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="NightDark" asp-for="@Model.night_dark_condition" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="SingleVeh" asp-for="@Model.single_vehicle" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="DistractedDriving" asp-for="@Model.distracted_driving" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input type="number" style="align-self: center;" id="Drowsy" asp-for="@Model.drowsy_driving" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input type="number" style="align-self: center;" id="Roadway" asp-for="@Model.roadway_departure" hidden />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center my-3">
+                            <button type="submit" class="btn boxed-btn mr-2">Calculate Crash Severity</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-between pt-3 w-75">
+                <p class="text-white w-50 p-5 ml-3" style="font-size:1.2rem;">
+                    While there are many things you cannot control about road safety, one thing you CAN control is distractions.
+                    Stay off your phone, pull over if you are feeling tired, and call an Uber or Lyft if you are worried about your
+                    ability to drive. Keep others safe by keeping yourself safe!
+                </p>
+                <img src="~/img/distracted.jpg" width="400" height="300" class="mt-4 mr-3" />
+            </div>
+        </div>
+    </div>
