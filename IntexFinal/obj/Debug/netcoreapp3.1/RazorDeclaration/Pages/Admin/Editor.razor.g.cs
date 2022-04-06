@@ -12,42 +12,42 @@ namespace IntexFinal.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 1 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 2 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 3 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 4 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 6 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 7 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using IntexFinal.Models;
 
 #line default
@@ -63,12 +63,12 @@ using IntexFinal.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 126 "/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Editor.razor"
+#line 187 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Editor.razor"
        
-        [Parameter]
-        public long Id { get; set; } = 0;
+    [Parameter]
+    public long Id { get; set; } = 0;
 
-public string ThemeColor => Id == 0 ? "primary" : "warning";
+    public string ThemeColor => Id == 0 ? "lightorange" : "darkorange";
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
     public crash_data b { get; set; } = new crash_data();
