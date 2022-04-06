@@ -1,13 +1,19 @@
 ﻿<Properties StartupConfiguration="{233D5AC2-B319-43E5-9501-5604875DE4D0}|Default">
   <MonoDevelop.Ide.ItemProperties.IntexFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntexFinal/Startup.cs">
     <Files>
       <File FileName="IntexFinal/Views/Shared/_Layout.cshtml" Line="46" Column="37" />
       <File FileName="IntexFinal/Views/Home/Incidents.cshtml" Line="21" Column="17" />
-      <File FileName="IntexFinal/Views/Home/Index.cshtml" Line="5" Column="1" />
-      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" Line="6" Column="33" />
-      <File FileName="IntexFinal/wwwroot/lib/items/css/main.css" Line="615" Column="12" />
-      <File FileName="IntexFinal/wwwroot/css/site.css" Line="86" Column="19" />
+      <File FileName="IntexFinal/Views/Home/Index.cshtml" />
+      <File FileName="IntexFinal/Views/Shared/IncidentSummary.cshtml" />
+      <File FileName="IntexFinal/wwwroot/lib/items/css/main.css" />
+      <File FileName="IntexFinal/wwwroot/css/site.css" Line="85" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/5.0.404/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="241" Column="5" />
+      <File FileName="IntexFinal/Views/Shared/_CookieConsentPartial.cshtml" Line="1" Column="1" />
+      <File FileName="IntexFinal/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="IntexFinal/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="IntexFinal/Infrastructure/PaginationTagHelper.cs" Line="1" Column="1" />
+      <File FileName="IntexFinal/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +26,7 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True" />
               </Node>
@@ -31,15 +35,12 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="lib" expanded="True">
-                  <Node name="items" expanded="True">
-                    <Node name="css" expanded="True" />
-                  </Node>
+                  <Node name="items" expanded="True" />
                 </Node>
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

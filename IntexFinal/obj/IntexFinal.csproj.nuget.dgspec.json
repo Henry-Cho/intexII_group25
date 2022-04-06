@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\IntexFinal.csproj": {}
+    "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\IntexFinal.csproj": {
+    "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
+        "projectUniqueName": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
         "projectName": "IntexFinal",
-        "projectPath": "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
-        "packagesPath": "C:\\Users\\Ransom Allphin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\obj\\",
+        "projectPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
+        "packagesPath": "/Users/dongking/.nuget/packages/",
+        "outputPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ransom Allphin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/dongking/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +41,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }
