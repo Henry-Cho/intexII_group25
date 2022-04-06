@@ -139,6 +139,223 @@
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Incidents.cshtml.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/IncidentSummary.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.exe
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.deps.json
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.runtimeconfig.json
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.runtimeconfig.dev.json
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.pdb
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.Views.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.Views.pdb
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/AWSSDK.Core.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/AWSSDK.SecretsManager.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.AssemblyReference.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.AssemblyInfoInputs.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.AssemblyInfo.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.CoreCompileInputs.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorComponent.input.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Incidents.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Routed.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorComponent.output.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/IntexFinal.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.TagHelpers.input.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.TagHelpers.output.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorCoreGenerate.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/AdminLayout.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Incidents.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_Imports.razor.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Incidents.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/IncidentSummary.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorAssemblyInfo.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorAssemblyInfo.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/staticwebassets/IntexFinal.StaticWebAssets.Manifest.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/staticwebassets/IntexFinal.StaticWebAssets.xml
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/scopedcss/bundle/IntexFinal.styles.css
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorTargetAssemblyInfo.cache
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorTargetAssemblyInfo.cs
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.Views.pdb
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.CopyComplete
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.dll
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.pdb
+C:/Users/Ransom Allphin/source/repos/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.genruntimeconfig.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.StaticWebAssets.xml
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.exe
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.deps.json
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.runtimeconfig.json
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.runtimeconfig.dev.json
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.pdb
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.Views.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/IntexFinal.Views.pdb
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.AssemblyReference.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.AssemblyInfoInputs.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.AssemblyInfo.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.CoreCompileInputs.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorComponent.input.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Details.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Incidents.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Paging.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Routed.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorComponent.output.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/IntexFinal.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.TagHelpers.input.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.TagHelpers.output.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorCoreGenerate.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/AdminLayout.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Incidents.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Paging.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_Imports.razor.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Incidents.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/IncidentSummary.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorAssemblyInfo.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorAssemblyInfo.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/staticwebassets/IntexFinal.StaticWebAssets.Manifest.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorTargetAssemblyInfo.cache
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.RazorTargetAssemblyInfo.cs
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.Views.pdb
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.csproj.CopyComplete
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.dll
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.pdb
+C:/Users/annad/OneDrive/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/IntexFinal.genruntimeconfig.cache
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Details.razor.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Paging.razor.g.cs
@@ -147,383 +364,44 @@
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Paging.razor.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/FullCalculator.cshtml.g.cs
 /Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/SeverityCalculator.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.StaticWebAssets.xml
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\onnxruntime_providers_shared.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.exe
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.deps.json
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.runtimeconfig.json
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.runtimeconfig.dev.json
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.pdb
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.Views.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.Views.pdb
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.ML.OnnxRuntime.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\MySqlConnector.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\android\native\onnxruntime.aar
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\Info.plist
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\coreml_provider_factory.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\cpu_provider_factory.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_c_api.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Info.plist
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\onnxruntime
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\coreml_provider_factory.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\cpu_provider_factory.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_c_api.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Info.plist
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\onnxruntime
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libonnxruntime.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libonnxruntime.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx.10.14-arm64\native\libonnxruntime.dylib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx.10.14-x64\native\libonnxruntime.dylib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime_providers_shared.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime_providers_shared.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime_providers_shared.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime_providers_shared.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime_providers_shared.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime_providers_shared.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime_providers_shared.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime_providers_shared.lib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.AssemblyInfoInputs.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.AssemblyInfo.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.CoreCompileInputs.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorComponent.input.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\AdminLayout.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Details.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Incidents.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Paging.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Routed.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\_Imports.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorComponent.output.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\IntexFinal.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.input.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.output.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorCoreGenerate.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminLayout.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Details.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Editor.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Incidents.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Paging.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Routed.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\_Imports.razor.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Index.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\FullCalculator.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Incidents.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SeverityCalculator.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\IncidentSummary.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorAssemblyInfo.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorAssemblyInfo.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\staticwebassets\IntexFinal.StaticWebAssets.Manifest.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorTargetAssemblyInfo.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorTargetAssemblyInfo.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.Views.pdb
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.CopyComplete
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.dll
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.pdb
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.genruntimeconfig.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.AssemblyReference.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\CityCalc.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SpecialCalc.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\DistCalc.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\onnxruntime_providers_shared.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.exe
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.deps.json
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.runtimeconfig.json
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.runtimeconfig.dev.json
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.pdb
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.Views.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\IntexFinal.Views.pdb
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.ML.OnnxRuntime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\MySqlConnector.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\android\native\onnxruntime.aar
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\Info.plist
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\coreml_provider_factory.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\cpu_provider_factory.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_c_api.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Info.plist
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\onnxruntime
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\coreml_provider_factory.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\cpu_provider_factory.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_c_api.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Info.plist
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\onnxruntime
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libonnxruntime.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libonnxruntime.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx.10.14-arm64\native\libonnxruntime.dylib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx.10.14-x64\native\libonnxruntime.dylib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime_providers_shared.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\onnxruntime_providers_shared.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime_providers_shared.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\onnxruntime_providers_shared.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime_providers_shared.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime_providers_shared.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime_providers_shared.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime_providers_shared.lib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.AssemblyInfoInputs.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.AssemblyInfo.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.CoreCompileInputs.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorComponent.input.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\AdminLayout.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Details.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Incidents.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Paging.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Routed.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\_Imports.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorComponent.output.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\IntexFinal.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.input.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.output.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorCoreGenerate.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminLayout.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Details.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Editor.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Incidents.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Paging.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Routed.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\_Imports.razor.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Index.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\CityCalc.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\DistCalc.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\FullCalculator.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Incidents.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SeverityCalculator.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Home\SpecialCalc.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\IncidentSummary.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorAssemblyInfo.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorAssemblyInfo.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\staticwebassets\IntexFinal.StaticWebAssets.Manifest.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\staticwebassets\IntexFinal.StaticWebAssets.xml
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\scopedcss\bundle\IntexFinal.styles.css
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorTargetAssemblyInfo.cache
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorTargetAssemblyInfo.cs
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.Views.pdb
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.csproj.CopyComplete
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.dll
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.pdb
-C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.genruntimeconfig.cache
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/onnxruntime_providers_shared.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/Microsoft.ML.OnnxRuntime.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/android/native/onnxruntime.aar
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/Info.plist
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Headers/coreml_provider_factory.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Headers/cpu_provider_factory.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Headers/onnxruntime_c_api.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Headers/onnxruntime_cxx_api.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Headers/onnxruntime_cxx_inline.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/Info.plist
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64/onnxruntime.framework/onnxruntime
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Headers/coreml_provider_factory.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Headers/cpu_provider_factory.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Headers/onnxruntime_c_api.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Headers/onnxruntime_cxx_api.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Headers/onnxruntime_cxx_inline.h
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/Info.plist
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/ios/native/onnxruntime.xcframework/ios-arm64_x86_64-simulator/onnxruntime.framework/onnxruntime
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libonnxruntime.so
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libonnxruntime.so
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/osx.10.14-arm64/native/libonnxruntime.dylib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/osx.10.14-x64/native/libonnxruntime.dylib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/onnxruntime.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/onnxruntime.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/onnxruntime_providers_shared.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/onnxruntime_providers_shared.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/onnxruntime.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/onnxruntime.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/onnxruntime_providers_shared.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/onnxruntime_providers_shared.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/onnxruntime.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/onnxruntime.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/onnxruntime_providers_shared.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/onnxruntime_providers_shared.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/onnxruntime.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/onnxruntime.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/onnxruntime_providers_shared.dll
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/onnxruntime_providers_shared.lib
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Result.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Filter.cshtml.g.cs
+/Users/hyungseokcho/Documents/GitHub/intexII_group25/IntexFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/FilteredIncidents.cshtml.g.cs

@@ -16,14 +16,10 @@
     <None Remove="AWSSDK.SecretsManager" />
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="Infrastructure\" />
-    <None Remove="Components\" />
-    <None Remove="Views\Shared\Components\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Account\" />
     <Folder Include="Infrastructure\" />
-    <Folder Include="Components\" />
-    <Folder Include="Views\Shared\Components\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.23" />
