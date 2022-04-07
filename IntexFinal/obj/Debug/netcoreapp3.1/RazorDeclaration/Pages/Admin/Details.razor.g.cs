@@ -12,42 +12,42 @@ namespace IntexFinal.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 1 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 2 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 3 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 4 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 6 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
+#line 7 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using IntexFinal.Models;
 
 #line default
@@ -63,7 +63,7 @@ using IntexFinal.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 45 "C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\Pages\Admin\Details.razor"
+#line 45 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Details.razor"
            
         [Inject]
         public ICrashRepository repo { get; set; }
