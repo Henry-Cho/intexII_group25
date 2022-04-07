@@ -33,6 +33,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.23",
           "Microsoft.AspNetCore.Identity.UI": "3.1.23",
+          "Microsoft.CodeAnalysis.Analyzers": "2.9.4",
           "Microsoft.EntityFrameworkCore.Design": "3.1.23",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.23",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.23",
