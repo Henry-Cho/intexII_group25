@@ -2,7 +2,151 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewBag.Title = "Result";
 }
 @model Prediction
 
-<div>@Model.PredictedValue</div> 
+@if (Model.PredictedValue < 2.0)
+{
+    <div class="hero-area no-injury">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <p class="subtitle">Predicted Results</p>
+                            <h1 class="result-comment">NO INJURY</h1>
+                            <div>
+                                <form class="multi-range-field my-10 pb-5">
+                                    <input type="range" class="form-range" id="disabledRange" display="color: red; background-color: red;" min="0.00" max="5.00" step="0.01"
+                                           color="red" value="@Math.Round((@Model.PredictedValue), 2)" disabled>
+                                </form>
+                            </div>
+                            <p class="result-score">Severity Score: @Math.Round((@Model.PredictedValue), 2)</p>
+                            <div class="hero-btns">
+                                <a class="boxed-btn" asp-action="FullCalculator" asp-controller="Home">Go Back</a>
+                                <a href="mailto:henrycho5643@gmail.com" class="bordered-btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+else if (Model.PredictedValue < 3.0)
+{
+    <div class="hero-area possible-injury">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <p class="subtitle">Predicted Results</p>
+                            <h1 class="result-comment">POSSIBLE INJURY</h1>
+                            <div>
+                                <form class="multi-range-field my-10 pb-5">
+                                    <input type="range" class="form-range" id="disabledRange" display="color: red; background-color: red;" min="0.00" max="5.00" step="0.01"
+                                           color="red" value="@Math.Round((@Model.PredictedValue), 2)" disabled>
+                                </form>
+                            </div>
+                            <p class="result-score">Severity Score: @Math.Round((@Model.PredictedValue), 2)</p>
+                            <div class="hero-btns">
+                                <a class="boxed-btn" asp-action="FullCalculator" asp-controller="Home">Go Back</a>
+                                <a href="mailto:henrycho5643@gmail.com" class="bordered-btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+else if (Model.PredictedValue < 4.0)
+{
+    <div class="hero-area suspected-minor-injury">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <p class="subtitle">Predicted Results</p>
+                            <h1 class="result-comment">SUSPECTED MINOR INJURY</h1>
+                            <div>
+                                <form class="multi-range-field my-10 pb-5">
+                                    <input type="range" class="form-range" id="disabledRange" display="color: red; background-color: red;" min="0.00" max="5.00" step="0.01"
+                                           color="red" value="@Math.Round((@Model.PredictedValue), 2)" disabled>
+                                </form>
+                            </div>
+                            <p class="result-score">Severity Score: @Math.Round((@Model.PredictedValue), 2)</p>
+                            <div class="hero-btns">
+                                <a class="boxed-btn" asp-action="FullCalculator" asp-controller="Home">Go Back</a>
+                                <a href="mailto:henrycho5643@gmail.com" class="bordered-btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+else if (Model.PredictedValue < 5.0)
+{
+    <div class="hero-area suspected-serious-injury">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <p class="subtitle">Predicted Results</p>
+                            <h1 class="result-comment">SUSPECTED SERIOUS INJURY</h1>
+                            <div>
+                                <form class="multi-range-field my-10 pb-5">
+                                    <input type="range" class="form-range" id="disabledRange" display="color: red; background-color: red;" min="0.00" max="5.00" step="0.01"
+                                           color="red" value="@Math.Round((@Model.PredictedValue), 2)" disabled>
+                                </form>
+                            </div>
+                            <p class="result-score">Severity Score: @Math.Round((@Model.PredictedValue), 2)</p>
+                            <div class="hero-btns">
+                                <a class="boxed-btn" asp-action="FullCalculator" asp-controller="Home">Go Back</a>
+                                <a href="mailto:henrycho5643@gmail.com" class="bordered-btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+else
+{
+    <div class="hero-area fatal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <p class="subtitle">Predicted Results</p>
+                            <h1 class="result-comment">FATAL</h1>
+                            <div>
+                                <form class="multi-range-field my-10 pb-5">
+                                    <input type="range" class="form-range" id="disabledRange" display="color: red; background-color: red;" min="0.00" max="5.00" step="0.01"
+                                           color="red" value="@Math.Round((@Model.PredictedValue), 2)" disabled>
+                                </form>
+                            </div>
+                            <p class="result-score">Predicted Severity Score: @Math.Round((@Model.PredictedValue), 2)</p>
+                            <div class="hero-btns">
+                                <a class="boxed-btn" asp-action="FullCalculator" asp-controller="Home">Go Back</a>
+                                <a href="mailto:henrycho5643@gmail.com" class="bordered-btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

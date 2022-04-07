@@ -1,0 +1,155 @@
+﻿@{
+    ViewData["Title"] = "Filter";
+}
+
+@model crash_data
+
+<h1>Filter Incident Data</h1>
+
+<form method="post" class="form-group">
+    <label asp-for="crash_datetime">Date & Time: </label>
+    <select asp-for="crash_datetime" class="form-control">
+        <option value="">Select Date & Time</option>
+        @foreach (var t in ViewBag.crash_datetime)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="route">Route: </label>
+    <select asp-for="route" class="form-control">
+        @foreach (var t in ViewBag.route)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="milepoint">Milepoint: </label>
+    <select asp-for="milepoint" class="form-control">
+        @foreach (var t in ViewBag.milepoint)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="main_road_name">Main Road Name: </label>
+    <select asp-for="main_road_name" class="form-control">
+        <option value="">Select Main Road Name</option>
+        @foreach (var t in ViewBag.main_road_name)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="lat_utm_y">Lat_utm_y: </label>
+    <select asp-for="lat_utm_y" class="form-control">
+        @foreach (var t in ViewBag.lat_utm_y)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="long_utm_x">Long_utm_x: </label>
+    <select asp-for="long_utm_x" class="form-control">
+        @foreach (var t in ViewBag.long_utm_x)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="city">City: </label>
+    <select asp-for="city" class="form-control">
+        <option value="">Select City</option>
+        @foreach (var t in ViewBag.city)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="county_name">County Name: </label>
+    <select asp-for="county_name" class="form-control">
+        <option value="">Select County Name</option>
+        @foreach (var t in ViewBag.county_name)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="crash_severity_id">crash severity: </label>
+    <select asp-for="crash_severity_id" class="form-control">
+        @foreach (var t in ViewBag.crash_severity_id)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label asp-for="work_zone_related">work_zone_related: </label>
+    <input type="checkbox" asp-for="work_zone_related" class="form-control" />
+    <br />
+    <label asp-for="pedestrian_involved">pedestrian_involved: </label>
+    <input type="checkbox" asp-for="pedestrian_involved" class="form-control" />
+    <br />
+    <label asp-for="bicyclist_involved">bicyclist_involved: </label>
+    <input type="checkbox" asp-for="bicyclist_involved" class="form-control" />
+    <br />
+    <label asp-for="motorcycle_involved">motorcycle_involved: </label>
+    <input type="checkbox" asp-for="motorcycle_involved" class="form-control" />
+    <br />
+    <label asp-for="improper_restraint">improper_restraint: </label>
+    <input type="checkbox" asp-for="improper_restraint" class="form-control" />
+    <br />
+    <label asp-for="unrestrained">unrestrained: </label>
+    <input type="checkbox" asp-for="unrestrained" class="form-control" />
+    <br />
+    <label asp-for="dui">dui: </label>
+    <input type="checkbox" asp-for="dui" class="form-control" />
+    <br />
+    <label asp-for="intersection_related">intersection_related: </label>
+    <input type="checkbox" asp-for="intersection_related" class="form-control" />
+    <br />
+    <label asp-for="wild_animal_related">wild_animal_related: </label>
+    <input type="checkbox" asp-for="wild_animal_related" class="form-control" />
+    <br />
+    <label asp-for="domestic_animal_related">domestic_animal_related: </label>
+    <input type="checkbox" asp-for="domestic_animal_related" class="form-control" />
+    <br />
+    <label asp-for="overturn_rollover">overturn_rollover: </label>
+    <input type="checkbox" asp-for="overturn_rollover" class="form-control" />
+    <br />
+    <label asp-for="commercial_motor_veh_involved">lat_utm_y: </label>
+    <input type="checkbox" asp-for="commercial_motor_veh_involved" class="form-control" />
+    <br />
+    <label asp-for="teenage_driver_involved">teenage_driver_involved: </label>
+    <input type="checkbox" asp-for="teenage_driver_involved" class="form-control" />
+    <br />
+    <label asp-for="older_driver_involved">older_driver_involved: </label>
+    <input type="checkbox" asp-for="older_driver_involved" class="form-control" />
+    <br />
+    <label asp-for="night_dark_condition">night_dark_condition: </label>
+    <input type="checkbox" asp-for="night_dark_condition" class="form-control" />
+    <br />
+    <label asp-for="single_vehicle">single_vehicle: </label>
+    <input type="checkbox" asp-for="single_vehicle" class="form-control" />
+    <br />
+    <label asp-for="distracted_driving">distracted_driving: </label>
+    <input type="checkbox" asp-for="distracted_driving" class="form-control" />
+    <br />
+    <label asp-for="drowsy_driving">drowsy_driving: </label>
+    <input type="checkbox" asp-for="drowsy_driving" class="form-control" />
+    <br />
+    <label asp-for="roadway_departure">roadway_departure: </label>
+    <input type="checkbox" asp-for="roadway_departure" class="form-control" />
+    <br />
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
