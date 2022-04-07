@@ -55,25 +55,13 @@
                                 <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
 
                                 <label class="mr-3">Milepoint:</label>
-                                <select class="form-control" id="Milepoint" onchange="ChangeSelectIntoFloat('Milepoint')">
-                                    <option hidden value="Default">Milepoint Unknown</option>
-                                    <option value="MilepointOther">Random Milepoint</option>
-                                </select>
-                                <input type="number" style="align-self: center;" id="MilepointOther" asp-for="@Model.milepoint" hidden />
+                                <input type="number" style="align-self: center;" id="Milepoint" asp-for="@Model.milepoint" />
 
                                 <label class="mr-3">Longitude:</label>
-                                <select class="form-control" id="Longitude" onchange="ChangeSelectIntoFloat('Longitude')">
-                                    <option hidden value="Default">Longitude Unknown</option>
-                                    <option value="LongitudeOther">Random Longitude</option>
-                                </select>
-                                <input type="number" style="align-self: center;" id="LongitudeOther" asp-for="@Model.long_utm_x" hidden />
+                                <input type="number" style="align-self: center;" id="Longitude" asp-for="@Model.long_utm_x" />
 
                                 <label class="mr-3">Latitude:</label>
-                                <select class="form-control" id="Latitude" onchange="ChangeSelectIntoFloat('Latitude')">
-                                    <option hidden value="Default">Latitude Unknown</option>
-                                    <option value="LatitudeOther">Random Latitude</option>
-                                </select>
-                                <input type="number" style="align-self: center;" id="LatitudeOther" asp-for="@Model.lat_utm_y" hidden />
+                                <input type="number" style="align-self: center;" id="Latitude" asp-for="@Model.lat_utm_y" />
 
                                 <label class="mr-3">City:</label>
                                 <select class="form-control" id="City" onchange="ChangeSelectIntoFloat('City')">
@@ -134,6 +122,19 @@
                                 <input type="number" style="align-self: center;" id="CountyWashington" asp-for="@Model.county_name_WASHINGTON" hidden />
                                 <input type="number" style="align-self: center;" id="CountySaltLake" asp-for="@Model.county_name_SALT_LAKE" hidden />
                                 <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
+                                <label class="mr-3">Day of Week</label>
+                                <select class="form-control" id="Day" onchange="ChangeSelectIntoFloat('Day')">
+                                    <option hidden value="Default">Please Select a Day</option>
+                                    <option value="Default">Monday</option>
+                                    <option value="Default">Tuesday</option>
+                                    <option value="Default">Wednesday</option>
+                                    <option value="Default">Thursday</option>
+                                    <option value="Default">Friday</option>
+                                    <option value="Saturday">Saturday</option>
+                                    <option value="Sunday">Sunday</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="Saturday" asp-for="@Model.day_name_Saturday" hidden />
+                                <input type="number" style="align-self: center;" id="Sunday" asp-for="@Model.day_name_Sunday" hidden />
                             </div>
                         </div>
                         <h4 class="text-center mt-4">Select Any Special Crash Attributes:</h4>
@@ -238,18 +239,6 @@
                                     <input name="road" type="checkbox" value="Roadway" onchange="ChangeCheckIntoFloat(this.name, 'Roadway')" />
                                     <label class="ml-3" for="road">Left Roadway</label>
                                     <input type="number" style="align-self: center;" id="Roadway" asp-for="@Model.roadway_departure" hidden />
-                                </div>
-                                <div class="d-flex align-items-center">
-
-                                    <input name="daySaturday" type="checkbox" value="DaySaturday" onchange="ChangeCheckIntoFloat(this.name, 'DaySaturday')" />
-                                    <label class="ml-3" for="road">Saturday</label>
-                                    <input type="number" style="align-self: center;" id="DaySaturday" asp-for="@Model.day_name_Saturday" hidden />
-                                </div>
-                                <div class="d-flex align-items-center">
-
-                                    <input name="daySunday" type="checkbox" value="DaySunday" onchange="ChangeCheckIntoFloat(this.name, 'DaySunday')" />
-                                    <label class="ml-3" for="road">Sunday</label>
-                                    <input type="number" style="align-self: center;" id="DaySunday" asp-for="@Model.day_name_Sunday" hidden />
                                 </div>
                             </div>
                         </div>

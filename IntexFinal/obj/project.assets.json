@@ -132,7 +132,7 @@
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.CodeAnalysis.Analyzers.props": {}
         }
       },
       "Microsoft.CodeAnalysis.Common/3.3.1": {
@@ -9514,6 +9514,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.23",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.23",
+      "Microsoft.CodeAnalysis.Analyzers >= 2.9.4",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.23",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.23",
@@ -9524,24 +9525,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/dongking/.nuget/packages/": {}
+    "C:\\Users\\annad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
+      "projectUniqueName": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
       "projectName": "IntexFinal",
-      "projectPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/IntexFinal.csproj",
-      "packagesPath": "/Users/dongking/.nuget/packages/",
-      "outputPath": "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/obj/",
+      "projectPath": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
+      "packagesPath": "C:\\Users\\annad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\annad\\OneDrive\\Documents\\GitHub\\intexII_group25\\IntexFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dongking/.config/NuGet/NuGet.Config"
+        "C:\\Users\\annad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9567,6 +9570,12 @@
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[3.1.23, )"
+          },
+          "Microsoft.CodeAnalysis.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.9.4, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -9619,7 +9628,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
