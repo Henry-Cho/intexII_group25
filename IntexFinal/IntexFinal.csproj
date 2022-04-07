@@ -16,6 +16,7 @@
     <None Remove="AWSSDK.SecretsManager" />
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="Infrastructure\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Account\" />
@@ -330,5 +331,6 @@
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.11.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.23" />
   </ItemGroup>
 </Project>
