@@ -13,6 +13,5 @@ namespace IntexFinal.Models
 
         }
         public DbSet<crash_data> Crash_Data { get; set; }
-        public DbSet<crash_severity> Crash_Severity { get; set; }
     }
 }
