@@ -68,6 +68,7 @@ using IntexFinal.Models;
     [Parameter]
     public long Id { get; set; } = 0;
 
+    //changes colors based on what action is being performed
     public string ThemeColor => Id == 0 ? "lightorange" : "darkorange";
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
@@ -83,14 +84,17 @@ using IntexFinal.Models;
         }
     }
 
+    //save function
     public void SaveCrashData()
     {
         if (Id == 0)
         {
+            //if we are creating a new one-- do create function
             repo.CreateCrashData(b);
         }
         else
         {
+            //if we are editing an existing incident, do edit
             repo.SaveCrashData(b);
         }
 

@@ -74,6 +74,7 @@ using IntexFinal.Models;
 
     protected override void OnParametersSet()
     {
+        //set up to pull the crash data with the id we sent in
         crash_Data = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
     }
 

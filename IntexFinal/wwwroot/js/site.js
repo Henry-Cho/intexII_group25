@@ -3,6 +3,7 @@
 
 // Write your JavaScript code.
 
+// used for the calculating pages so it can be in float formatting
 function ChangeCheckIntoFloat(name, id) {
     var check = document.getElementsByName(name);
     if (check[0].checked) {
@@ -15,7 +16,7 @@ function ChangeCheckIntoFloat(name, id) {
     }
 
 }
-
+// used for the calculating pages so it can be in float formatting
 function ChangeSelectIntoFloat(id) {
     var select = document.getElementById(id);
     for (i = 0; i < select.length; i++) {

@@ -15,7 +15,7 @@ namespace IntexFinal.Models
         }
         public IQueryable<crash_data> Crash_Data => _context.Crash_Data;
 
-        //public IQueryable<crash_severity> Crash_Severity => _context.Crash_Severity;
+        //create
 
         public void CreateCrashData(crash_data cd)
         {
@@ -23,18 +23,21 @@ namespace IntexFinal.Models
             _context.SaveChanges();
         }
 
+        //delete
         public void DeleteCrashData(crash_data cd)
         {
             _context.Remove(cd);
             _context.SaveChanges();
         }
 
+        //edit
         public void SaveCrashData(crash_data cd)
         {
             _context.Update(cd);
             _context.SaveChanges();
         }
 
+        //this method is for filtering/searching-- it is a HEFTY boy but works and ensures least amount of filtering work is done
         public List<crash_data> GetFiltered(string? city, string? county_name,  int? route, string? main_road_name, int? crash_severity_id, bool? work_zone_related, bool? pedestrian_involved, bool? bicyclist_involved, bool? motorcycle_involved, bool? improper_restraint,
             bool? unrestrained, bool? dui, bool? intersection_related, bool? wild_animal_related, bool? domestic_animal_related, bool? overturn_rollover, bool? commercial_motor_veh_involved,
             bool? teenage_driver_involved, bool? older_driver_involved, bool? night_dark_condition, bool? single_vehicle, bool? distracted_driving, bool? drowsy_driving, bool? roadway_departure)

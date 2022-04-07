@@ -8,6 +8,7 @@ namespace IntexFinal.Models
 {
     public class crash_prediction
     {
+        //the model for the calculations/ what gets sent to the onnx file
 
         public float milepoint { get; set; }
         public float lat_utm_y { get; set; }
