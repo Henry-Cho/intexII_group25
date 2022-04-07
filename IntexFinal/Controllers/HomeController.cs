@@ -54,45 +54,25 @@ namespace IntexFinal.Controllers
             return View(c);
         }
 
-        public IActionResult Incidents(int pageNum = 1, List<crash_data> cd = null)
+        public IActionResult Incidents(int pageNum = 1)
         {
             int pageSize = 7;
             var c = new IncidentsViewModel();
 
-            if (cd.Count() == 0)
+            c = new IncidentsViewModel
             {
-                c = new IncidentsViewModel
-                {
-                    Incidents = repo.Crash_Data
-                        .OrderByDescending(x => x.crash_datetime)
-                        .Skip((pageNum - 1) * pageSize)
-                        .Take(pageSize),
+                Incidents = repo.Crash_Data
+                    .OrderByDescending(x => x.crash_datetime)
+                    .Skip((pageNum - 1) * pageSize)
+                    .Take(pageSize),
 
-                    PageInfo = new PageInfo
-                    {
-                        TotalNumIncidents = repo.Crash_Data.Count(),
-                        IncidentsPerPage = pageSize,
-                        CurrentPage = pageNum
-                    }
-                };
-            }
-            else
-            {
-                c = new IncidentsViewModel
+                PageInfo = new PageInfo
                 {
-                    Incidents = cd.AsQueryable()
-                        .OrderByDescending(x => x.crash_datetime)
-                        .Skip((pageNum - 1) * pageSize)
-                        .Take(pageSize),
-
-                    PageInfo = new PageInfo
-                    {
-                        TotalNumIncidents = cd.Count(),
-                        IncidentsPerPage = pageSize,
-                        CurrentPage = pageNum
-                    }
-                };
-            }
+                    TotalNumIncidents = repo.Crash_Data.Count(),
+                    IncidentsPerPage = pageSize,
+                    CurrentPage = pageNum
+                }
+            };
 
             return View(c);
         }
@@ -310,8 +290,25 @@ namespace IntexFinal.Controllers
             List<crash_data> record = repo.GetFiltered(city, county_name, route, milepoint, main_road_name, crash_severity_id,   work_zone_related,   pedestrian_involved,   bicyclist_involved,   motorcycle_involved,   improper_restraint,
               unrestrained,   dui,   intersection_related,   wild_animal_related,   domestic_animal_related,   overturn_rollover,   commercial_motor_veh_involved,
               teenage_driver_involved,   older_driver_involved,   night_dark_condition,   single_vehicle,   distracted_driving,   drowsy_driving,   roadway_departure);
-               
-            return RedirectToAction("Incidents", new { pageNum = 1, cd = record});
+
+            int pageSize = 7;
+            int pageNum = 1;
+            IncidentsViewModel c = new IncidentsViewModel
+            {
+                Incidents = record.AsQueryable()
+                .OrderByDescending(x => x.crash_datetime)
+                .Skip((pageNum - 1) * pageSize)
+                .Take(pageSize),
+
+                PageInfo = new PageInfo
+                {
+                    TotalNumIncidents = record.Count(),
+                    IncidentsPerPage = pageSize,
+                    CurrentPage = pageNum
+                }
+            };
+
+            return View("Incidents", c);
         }
 
         [HttpGet]
