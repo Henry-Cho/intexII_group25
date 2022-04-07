@@ -9,8 +9,7 @@
 @{
 }
 @model crash_prediction
-
-    <div class="disthero-image">
+<div class="disthero-image">
         <div class="hero-text">
             <h1 class="mt-2" style="font-size: 4.75rem;">Severity Calculator</h1>
         </div>
@@ -34,19 +33,52 @@
                                     <option value="DistractedDriving">Eating</option>
                                     <option value="DistractedDriving">Other Distractions</option>
                                 </select>
+                                <input type="number" style="align-self: center;" id="Route15" asp-for="@Model.route_15" hidden />
+                                <input type="number" style="align-self: center;" id="Route40" asp-for="@Model.route_40" hidden />
+                                <input type="number" style="align-self: center;" id="Route68" asp-for="@Model.route_68" hidden />
+                                <input type="number" style="align-self: center;" id="Route71" asp-for="@Model.route_71" hidden />
+                                <input type="number" style="align-self: center;" id="Route80" asp-for="@Model.route_80" hidden />
                                 <input type="number" style="align-self: center;" id="Route89" asp-for="@Model.route_89" hidden />
+                                <input type="number" style="align-self: center;" id="Route91" asp-for="@Model.route_91" hidden />
+                                <input type="number" style="align-self: center;" id="Route154" asp-for="@Model.route_154" hidden />
+                                <input type="number" style="align-self: center;" id="Route171" asp-for="@Model.route_171" hidden />
+                                <input type="number" style="align-self: center;" id="Route173" asp-for="@Model.route_173" hidden />
+                                <input type="number" style="align-self: center;" id="Route201" asp-for="@Model.route_201" hidden />
+                                <input type="number" style="align-self: center;" id="Route209" asp-for="@Model.route_209" hidden />
+                                <input type="number" style="align-self: center;" id="Route215" asp-for="@Model.route_215" hidden />
+                                <input type="number" style="align-self: center;" id="Route2172" asp-for="@Model.route_2172" hidden />
                                 <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
-                                <input type="number" style="align-self: center;" id="MilepointOther" asp-for="@Model.milepoint_Other" hidden />
-                                <input type="number" style="align-self: center;" id="MainRoadOther" asp-for="@Model.main_road_name_Other" hidden />
+                                <input type="number" style="align-self: center;" id="Milepoint" asp-for="@Model.milepoint" hidden />
+                                <input type="number" style="align-self: center;" id="Longitude" asp-for="@Model.long_utm_x" hidden />
+                                <input type="number" style="align-self: center;" id="Latitude" asp-for="@Model.lat_utm_y" hidden />
+                                <input type="number" style="align-self: center;" id="CityLayton" asp-for="@Model.city_LAYTON" hidden />
+                                <input type="number" style="align-self: center;" id="CityLehi" asp-for="@Model.city_LEHI" hidden />
+                                <input type="number" style="align-self: center;" id="CityOgden" asp-for="@Model.city_OGDEN" hidden />
+                                <input type="number" style="align-self: center;" id="CityProvo" asp-for="@Model.city_PROVO" hidden />
+                                <input type="number" style="align-self: center;" id="CitySouthSaltLake" asp-for="@Model.city_SOUTH_SALT_LAKE" hidden />
+                                <input type="number" style="align-self: center;" id="CityStGeorge" asp-for="@Model.city_ST_GEORGE" hidden />
+                                <input type="number" style="align-self: center;" id="CityTaylorsville" asp-for="@Model.city_TAYLORSVILLE" hidden />
+                                <input type="number" style="align-self: center;" id="CityWestJordan" asp-for="@Model.city_WEST_JORDAN" hidden />
                                 <input type="number" style="align-self: center;" id="CityOutside" asp-for="@Model.city_OUTSIDE_CITY_LIMITS" hidden />
                                 <input type="number" style="align-self: center;" id="CityOther" asp-for="@Model.city_Other" hidden />
                                 <input type="number" style="align-self: center;" id="CitySaltLake" asp-for="@Model.city_SALT_LAKE_CITY" hidden />
                                 <input type="number" style="align-self: center;" id="CitySandy" asp-for="@Model.city_SANDY" hidden />
                                 <input type="number" style="align-self: center;" id="CityWestValley" asp-for="@Model.city_WEST_VALLEY_CITY" hidden />
                                 <input type="number" style="align-self: center;" id="CountyOther" asp-for="@Model.county_name_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CountyCache" asp-for="@Model.county_name_CACHE" hidden />
+                                <input type="number" style="align-self: center;" id="CountyCarbon" asp-for="@Model.county_name_CARBON" hidden />
+                                <input type="number" style="align-self: center;" id="CountyDavis" asp-for="@Model.county_name_DAVIS" hidden />
+                                <input type="number" style="align-self: center;" id="CountyIron" asp-for="@Model.county_name_IRON" hidden />
+                                <input type="number" style="align-self: center;" id="CountyMillard" asp-for="@Model.county_name_MILLARD" hidden />
+                                <input type="number" style="align-self: center;" id="CountySanpete" asp-for="@Model.county_name_SANPETE" hidden />
+                                <input type="number" style="align-self: center;" id="CountySummit" asp-for="@Model.county_name_SUMMIT" hidden />
+                                <input type="number" style="align-self: center;" id="CountyUnitah" asp-for="@Model.county_name_UINTAH" hidden />
+                                <input type="number" style="align-self: center;" id="CountyWashington" asp-for="@Model.county_name_WASHINGTON" hidden />
                                 <input type="number" style="align-self: center;" id="CountySaltLake" asp-for="@Model.county_name_SALT_LAKE" hidden />
-                                <input type="number" style="align-self: center;" id="CountyUtah" asp-for="@Model.county_name_UTAH" hidden />
                                 <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
+                                <input type="number" style="align-self: center;" id="Saturday" asp-for="@Model.day_name_Saturday" hidden />
+                                <input type="number" style="align-self: center;" id="Sunday" asp-for="@Model.day_name_Sunday" hidden />
+
                             </div>
                         </div>
                         <div class="d-flex justify-content-center mt-4">
@@ -81,11 +113,7 @@
                                 </div>
                                 <div class="d-flex align-items-center">
 
-                                    <input type="number" style="align-self: center;" id="DomesticRelated" asp-for="@Model.domestic_animal_related" hidden />
-                                </div>
-                                <div class="d-flex align-items-center">
-
-                                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related_Other" hidden />
+                                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related" hidden />
                                 </div>
                             </div>
                             <div class="d-flex flex-column ml-5">
@@ -106,10 +134,6 @@
                                 <div class="d-flex align-items-center">
 
                                     <input type="number" style="align-self: center;" id="Older" asp-for="@Model.older_driver_involved" hidden />
-                                </div>
-                                <div class="d-flex align-items-center">
-
-                                    <input type="number" style="align-self: center;" id="NightDark" asp-for="@Model.night_dark_condition" hidden />
                                 </div>
                                 <div class="d-flex align-items-center">
 
@@ -145,4 +169,4 @@
                 <img src="~/img/distracted.jpg" width="400" height="300" class="mt-4 mr-3" />
             </div>
         </div>
-    </div>
+    </div> 

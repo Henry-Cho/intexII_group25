@@ -1,0 +1,209 @@
+﻿@{
+    ViewData["Title"] = "Filter";
+}
+
+
+<h1>Filter Incident Data</h1>
+
+<form method="post" class="form-group">
+
+
+    <label for="route">Route: </label>
+    <select name="route" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.route)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label for="milepoint">Milepoint: </label>
+    <select name="milepoint" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.milepoint)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label for="main_road_name">Main Road Name: </label>
+    <select name="main_road_name" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.main_road_name)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+
+    <label for="city">City: </label>
+    <select name="city" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.city)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label for="county_name">County Name: </label>
+    <select name="county_name" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.county_name)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+
+    <label for="crash_severity_id">Crash severity: </label>
+    <select name="crash_severity_id" class="form-control">
+        <option value="null">All</option>
+        @foreach (var t in ViewBag.crash_severity_id)
+        {
+            <option value="@t">@t</option>
+        }
+    </select>
+    <br />
+    <label for="work_zone_related">Work Zone Related: </label>
+    <select name="work_zone_related" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="pedestrian_involved">Pedestrian Involved </label>
+    <select name="pedestrian_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="bicyclist_involved">Bicyclist Involved </label>
+    <select name="bicyclist_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="motorcycle_involved">Motorcycle Involved </label>
+    <select name="motorcycle_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="improper_restraint">improper_restraint </label>
+    <select name="improper_restraint" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+
+    <label for="unrestrained">unrestrained </label>
+    <select name="unrestrained" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="dui">dui </label>
+    <select name="dui" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="intersection_related">intersection_related </label>
+    <select name="intersection_related" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="wild_animal_related">wild_animal_related </label>
+    <select name="wild_animal_related" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="domestic_animal_related">domestic_animal_related </label>
+    <select name="domestic_animal_related" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="overturn_rollover">overturn_rollover </label>
+    <select name="overturn_rollover" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="commercial_motor_veh_involved">commercial_motor_veh_involved </label>
+    <select name="commercial_motor_veh_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="teenage_driver_involved">teenage_driver_involved </label>
+    <select name="teenage_driver_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="older_driver_involved">older_driver_involved </label>
+    <select name="older_driver_involved" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="night_dark_condition">night_dark_condition </label>
+    <select name="night_dark_condition" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="single_vehicle">single_vehicle </label>
+    <select name="single_vehicle" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="distracted_driving">distracted_driving </label>
+    <select name="distracted_driving" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="drowsy_driving">drowsy_driving </label>
+    <select name="drowsy_driving" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+    <label for="roadway_departure">roadway_departure </label>
+    <select name="roadway_departure" class="form-control">
+        <option value="null">Any</option>
+        <option value="True">Yes</option>
+        <option value="False">No</option>
+    </select>
+    <br />
+
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+

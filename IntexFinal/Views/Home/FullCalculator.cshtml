@@ -5,178 +5,249 @@
 }
 @model crash_prediction
 
-<div class="container">
-    <h3 class="text-center my-3">Enter All Crash Data To Calculate The Crash Severity!</h3>
-    <form method="post" action="FullCalculator">
-        <div class="d-flex justify-content-center">
-            <div class="mt-3" style="display: grid; grid-template-columns: 1fr 3fr; grid-template-rows:auto; grid-row-gap: .5rem;">
-                    <label class="mr-3">Route:</label>
-                    <select class="form-control" id="Route" onchange="ChangeSelectIntoFloat('Route')">
-                        <option hidden value="Default">Route Unknown</option>
-                        <option value="Route89">Route 89</option>
-                        <option value="RouteOther">Route Not Listed</option>
-                    </select>
-                    <input type="number" style="align-self: center;" id="Route89" asp-for="@Model.route_89" hidden />
-                    <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
-                    <label class="mr-3">Milepoint:</label>
-                    <select class="form-control" id="Milepoint" onchange="ChangeSelectIntoFloat('Milepoint')">
-                        <option hidden value="Default">Milepoint Unknown</option>
-                        <option value="MilepointOther">Random Milepoint</option>
-                    </select>
-                    <input type="number" style="align-self: center;" id="MilepointOther" asp-for="@Model.milepoint_Other" hidden />
-                    <label class="mr-3">Main Road Name:</label>
-                    <select class="form-control" id="MainRoad" onchange="ChangeSelectIntoFloat('MainRoad')">
-                        <option hidden value="Default">Main Road Unknown</option>
-                        <option value="MainRoadOther">Random Main Road</option>
-                    </select>
-                    <input type="number" style="align-self: center;" id="MainRoadOther" asp-for="@Model.main_road_name_Other" hidden />
-                    <label class="mr-3">City:</label>
-                    <select class="form-control" id="City" onchange="ChangeSelectIntoFloat('City')">
-                        <option hidden value="Default">City Unknown</option>
-                        <option value="CitySaltLake">Salt Lake</option>
-                        <option value="CitySandy">Sandy</option>
-                        <option value="CityWestValley">West Valley</option>
-                        <option value="CityOutside">Outside City Limits</option>
-                        <option value="CityOther">City Not Listed</option>
-                    </select>
-                    <input type="number" style="align-self: center;" id="CityOutside" asp-for="@Model.city_OUTSIDE_CITY_LIMITS" hidden />
-                    <input type="number" style="align-self: center;" id="CityOther" asp-for="@Model.city_Other" hidden />
-                    <input type="number" style="align-self: center;" id="CitySaltLake" asp-for="@Model.city_SALT_LAKE_CITY" hidden />
-                    <input type="number" style="align-self: center;" id="CitySandy" asp-for="@Model.city_SANDY" hidden />
-                    <input type="number" style="align-self: center;" id="CityWestValley" asp-for="@Model.city_WEST_VALLEY_CITY" hidden />
-                    <label class="mr-3">County:</label>
-                    <select class="form-control" id="County" onchange="ChangeSelectIntoFloat('County')">
-                        <option hidden value="Default">County Unknown</option>
-                        <option value="CountySaltLake">Salt Lake County</option>
-                        <option value="CountyUtah">Utah County</option>
-                        <option value="CountyWeber">Weber County</option>
-                        <option value="CountyOther">County Not Listed</option>
-                    </select>
-                    <input type="number" style="align-self: center;" id="CountyOther" asp-for="@Model.county_name_Other" hidden />
-                    <input type="number" style="align-self: center;" id="CountySaltLake" asp-for="@Model.county_name_SALT_LAKE" hidden />
-                    <input type="number" style="align-self: center;" id="CountyUtah" asp-for="@Model.county_name_UTAH" hidden />
-                    <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
-            </div>
+    <div class="drivinghero-image">
+        <div class="hero-text">
+            <h1 class="mt-2" style="font-size: 4.75rem;">Severity Calculator</h1>
         </div>
-        <h4 class="text-center mt-4">Select Any Special Crash Attributes:</h4>
-        <div class="d-flex justify-content-center mt-4">
-            <div class="d-flex flex-column mr-5">
-                <div class="d-flex align-items-center">
-                    <input name="pedestrian" type="checkbox" value="PedestrianInvolved" onchange="ChangeCheckIntoFloat(this.name, 'PedestrianInvolved')" />
-                    <label class="ml-3" for="pedestrian">Pedestrian Involved</label>
-                    <input type="number" style="align-self: center;" id="PedestrianInvolved" asp-for="@Model.pedestrian_involved" hidden />
-                </div>
-                <div class="d-flex align-items-center">
-                    <input name="bicyclist" type="checkbox" value="BicyclistInvolved" onchange="ChangeCheckIntoFloat(this.name, 'BicyclistInvolved')" />
-                    <label class="ml-3" for="bicyclist">Bicyclist Involved</label>
-                    <input type="number" style="align-self: center;" id="BicyclistInvolved" asp-for="@Model.bicyclist_involved" hidden />
-                </div>
-                <div class="d-flex align-items-center">
-                    <input name="motorcycle" type="checkbox" value="MotorcycleInvolved" onchange="ChangeCheckIntoFloat(this.name, 'MotorcycleInvolved')" />
-                    <label class="ml-3" for="motorcycle">Motorcycle Involved</label>
-                    <input type="number" style="align-self: center;" id="MotorcycleInvolved" asp-for="@Model.motorcycle_involved" hidden />
-                </div>
-                <div class="d-flex align-items-center">
-                    <input name="Improper" type="checkbox" value="ImproperRestraint" onchange="ChangeCheckIntoFloat(this.name, 'ImproperRestraint')" />
-                    <label class="ml-3" for="Improper">Improper Restraint</label>
-                    <input type="number" style="align-self: center;" id="ImproperRestraint" asp-for="@Model.improper_restraint" hidden />
-                </div>
-                <div class="d-flex align-items-center">
+    </div>
+    <div class="bg-dark w-100 mb-0 py-3">
+        <div class="container">
+            <div class="d-flex justify-content-center mt-4">
+                <div class="bg-white p-3 w-75" style="border: solid 5px #F28123; border-radius: .5rem;">
+                    <h3 class="text-center my-3">Enter All Crash Data To Calculate The Crash Severity!</h3>
+                    <form method="post" action="FullCalculator">
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-3" style="display: grid; grid-template-columns: 1fr 3fr; grid-template-rows:auto; grid-row-gap: .5rem;">
 
-                    <input name="unrestrained" type="checkbox" value="Unrestrained" onchange="ChangeCheckIntoFloat(this.name, 'Unrestrained')" />
-                    <label class="ml-3" for="unrestrained">Unrestrained</label>
-                    <input type="number" style="align-self: center;" id="Unrestrained" asp-for="@Model.unrestrained" hidden />
-                </div>
-                <div class="d-flex align-items-center">
+                                <label class="mr-3">Route:</label>
+                                <select class="form-control" id="Route" onchange="ChangeSelectIntoFloat('Route')">
+                                    <option hidden value="Default">Route Unknown</option>
+                                    <option value="Route15">Route 15</option>
+                                    <option value="Route40">Route 40</option>
+                                    <option value="Route68">Route 68</option>
+                                    <option value="Route71">Route 71</option>
+                                    <option value="Route80">Route 80</option>
+                                    <option value="Route89">Route 89</option>
+                                    <option value="Route91">Route 91</option>
+                                    <option value="Route154">Route 154</option>
+                                    <option value="Route171">Route 171</option>
+                                    <option value="Route173">Route 173</option>
+                                    <option value="Route201">Route 201</option>
+                                    <option value="Route209">Route 209</option>
+                                    <option value="Route215">Route 215</option>
+                                    <option value="Route2172">Route 2172</option>
+                                    <option value="RouteOther">Route Not Listed</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="Route15" asp-for="@Model.route_15" hidden />
+                                <input type="number" style="align-self: center;" id="Route40" asp-for="@Model.route_40" hidden />
+                                <input type="number" style="align-self: center;" id="Route68" asp-for="@Model.route_68" hidden />
+                                <input type="number" style="align-self: center;" id="Route71" asp-for="@Model.route_71" hidden />
+                                <input type="number" style="align-self: center;" id="Route80" asp-for="@Model.route_80" hidden />
+                                <input type="number" style="align-self: center;" id="Route89" asp-for="@Model.route_89" hidden />
+                                <input type="number" style="align-self: center;" id="Route91" asp-for="@Model.route_91" hidden />
+                                <input type="number" style="align-self: center;" id="Route154" asp-for="@Model.route_154" hidden />
+                                <input type="number" style="align-self: center;" id="Route171" asp-for="@Model.route_171" hidden />
+                                <input type="number" style="align-self: center;" id="Route173" asp-for="@Model.route_173" hidden />
+                                <input type="number" style="align-self: center;" id="Route201" asp-for="@Model.route_201" hidden />
+                                <input type="number" style="align-self: center;" id="Route209" asp-for="@Model.route_209" hidden />
+                                <input type="number" style="align-self: center;" id="Route215" asp-for="@Model.route_215" hidden />
+                                <input type="number" style="align-self: center;" id="Route2172" asp-for="@Model.route_2172" hidden />
+                                <input type="number" style="align-self: center;" id="RouteOther" asp-for="@Model.route_Other" hidden />
 
-                    <input name="dui" type="checkbox" value="DUI" onchange="ChangeCheckIntoFloat(this.name, 'DUI')" />
-                    <label class="ml-3" for="dui">DUI</label>
-                    <input type="number" style="align-self: center;" id="DUI" asp-for="@Model.dui" hidden />
-                </div>
-                <div class="d-flex align-items-center">
+                                <label class="mr-3">Milepoint:</label>
+                                <input type="number" style="align-self: center;" id="Milepoint" asp-for="@Model.milepoint" />
 
-                    <input name="intersection" type="checkbox" value="IntersectionRelated" onchange="ChangeCheckIntoFloat(this.name, 'IntersectionRelated')" />
-                    <label class="ml-3" for="intersection">Intersection Related</label>
-                    <input type="number" style="align-self: center;" id="IntersectionRelated" asp-for="@Model.intersection_related" hidden />
-                </div>
-                <div class="d-flex align-items-center">
-                    <input name="wild" type="checkbox" value="WildAnimalRelated" onchange="ChangeCheckIntoFloat(this.name, 'WildAnimalRelated')" />
-                    <label class="ml-3" for="wild">Wild Animal Related</label>
-                    <input type="number" style="align-self: center;" id="WildAnimalRelated" asp-for="@Model.wild_animal_related" hidden />
-                </div>
-                <div class="d-flex align-items-center">
+                                <label class="mr-3">Longitude:</label>
+                                <input type="number" style="align-self: center;" id="Longitude" asp-for="@Model.long_utm_x" />
 
-                    <input name="domestic" type="checkbox" value="DomesticRelated" onchange="ChangeCheckIntoFloat(this.name, 'DomesticRelated')" />
-                    <label class="ml-3" for="domestic">Domestic Animal Related</label>
-                    <input type="number" style="align-self: center;" id="DomesticRelated" asp-for="@Model.domestic_animal_related" hidden />
-                </div>
-                <div class="d-flex align-items-center">
+                                <label class="mr-3">Latitude:</label>
+                                <input type="number" style="align-self: center;" id="Latitude" asp-for="@Model.lat_utm_y" />
 
-                    <input name="work" type="checkbox" value="WorkZone" onchange="ChangeCheckIntoFloat(this.name, 'WorkZone')" />
-                    <label class="ml-3" for="work">Work Zone Related</label>
-                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related_Other" hidden />
+                                <label class="mr-3">City:</label>
+                                <select class="form-control" id="City" onchange="ChangeSelectIntoFloat('City')">
+                                    <option hidden value="Default">City Unknown</option>
+                                    <option value="CityLayton">Layton</option>
+                                    <option value="CityLehi">Lehi</option>
+                                    <option value="CityOgden">Ogden</option>
+                                    <option value="CityProvo">Provo</option>
+                                    <option value="CitySouthSaltLake">South Salt Lake</option>
+                                    <option value="CityStGeorge">St. George</option>
+                                    <option value="CityTaylorsville">Taylorsville</option>
+                                    <option value="CityWestJordan">West Jordan</option>
+                                    <option value="CitySaltLake">Salt Lake</option>
+                                    <option value="CitySandy">Sandy</option>
+                                    <option value="CityWestValley">West Valley</option>
+                                    <option value="CityOutside">Outside City Limits</option>
+                                    <option value="CityOther">City Not Listed</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="CityLayton" asp-for="@Model.city_LAYTON" hidden />
+                                <input type="number" style="align-self: center;" id="CityLehi" asp-for="@Model.city_LEHI" hidden />
+                                <input type="number" style="align-self: center;" id="CityOgden" asp-for="@Model.city_OGDEN" hidden />
+                                <input type="number" style="align-self: center;" id="CityProvo" asp-for="@Model.city_PROVO" hidden />
+                                <input type="number" style="align-self: center;" id="CitySouthSaltLake" asp-for="@Model.city_SOUTH_SALT_LAKE" hidden />
+                                <input type="number" style="align-self: center;" id="CityStGeorge" asp-for="@Model.city_ST_GEORGE" hidden />
+                                <input type="number" style="align-self: center;" id="CityTaylorsville" asp-for="@Model.city_TAYLORSVILLE" hidden />
+                                <input type="number" style="align-self: center;" id="CityWestJordan" asp-for="@Model.city_WEST_JORDAN" hidden />
+                                <input type="number" style="align-self: center;" id="CityOutside" asp-for="@Model.city_OUTSIDE_CITY_LIMITS" hidden />
+                                <input type="number" style="align-self: center;" id="CityOther" asp-for="@Model.city_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CitySaltLake" asp-for="@Model.city_SALT_LAKE_CITY" hidden />
+                                <input type="number" style="align-self: center;" id="CitySandy" asp-for="@Model.city_SANDY" hidden />
+                                <input type="number" style="align-self: center;" id="CityWestValley" asp-for="@Model.city_WEST_VALLEY_CITY" hidden />
+
+                                <label class="mr-3">County:</label>
+                                <select class="form-control" id="County" onchange="ChangeSelectIntoFloat('County')">
+                                    <option hidden value="Default">County Unknown</option>
+                                    <option value="CountyCache">Cache County</option>
+                                    <option value="CountyCarbon">Carbon County</option>
+                                    <option value="CountyDavis">Davis County</option>
+                                    <option value="CountyIron">Iron County</option>
+                                    <option value="CountyMillard">Millard County</option>
+                                    <option value="CountySanpete">Sanpete County</option>
+                                    <option value="CountySummit">Summit County</option>
+                                    <option value="CountyUnitah">Unitah County</option>
+                                    <option value="CountyWashington">Washington County</option>
+                                    <option value="CountySaltLake">Salt Lake County</option>
+                                    <option value="CountyWeber">Weber County</option>
+                                    <option value="CountyOther">County Not Listed</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="CountyOther" asp-for="@Model.county_name_Other" hidden />
+                                <input type="number" style="align-self: center;" id="CountyCache" asp-for="@Model.county_name_CACHE" hidden />
+                                <input type="number" style="align-self: center;" id="CountyCarbon" asp-for="@Model.county_name_CARBON" hidden />
+                                <input type="number" style="align-self: center;" id="CountyDavis" asp-for="@Model.county_name_DAVIS" hidden />
+                                <input type="number" style="align-self: center;" id="CountyIron" asp-for="@Model.county_name_IRON" hidden />
+                                <input type="number" style="align-self: center;" id="CountyMillard" asp-for="@Model.county_name_MILLARD" hidden />
+                                <input type="number" style="align-self: center;" id="CountySanpete" asp-for="@Model.county_name_SANPETE" hidden />
+                                <input type="number" style="align-self: center;" id="CountySummit" asp-for="@Model.county_name_SUMMIT" hidden />
+                                <input type="number" style="align-self: center;" id="CountyUnitah" asp-for="@Model.county_name_UINTAH" hidden />
+                                <input type="number" style="align-self: center;" id="CountyWashington" asp-for="@Model.county_name_WASHINGTON" hidden />
+                                <input type="number" style="align-self: center;" id="CountySaltLake" asp-for="@Model.county_name_SALT_LAKE" hidden />
+                                <input type="number" style="align-self: center;" id="CountyWeber" asp-for="@Model.county_name_WEBER" hidden />
+                                <label class="mr-3">Day of Week</label>
+                                <select class="form-control" id="Day" onchange="ChangeSelectIntoFloat('Day')">
+                                    <option hidden value="Default">Please Select a Day</option>
+                                    <option value="Default">Monday</option>
+                                    <option value="Default">Tuesday</option>
+                                    <option value="Default">Wednesday</option>
+                                    <option value="Default">Thursday</option>
+                                    <option value="Default">Friday</option>
+                                    <option value="Saturday">Saturday</option>
+                                    <option value="Sunday">Sunday</option>
+                                </select>
+                                <input type="number" style="align-self: center;" id="Saturday" asp-for="@Model.day_name_Saturday" hidden />
+                                <input type="number" style="align-self: center;" id="Sunday" asp-for="@Model.day_name_Sunday" hidden />
+                            </div>
+                        </div>
+                        <h4 class="text-center mt-4">Select Any Special Crash Attributes:</h4>
+                        <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex flex-column mr-5">
+                                <div class="d-flex align-items-center">
+                                    <input name="pedestrian" type="checkbox" value="PedestrianInvolved" onchange="ChangeCheckIntoFloat(this.name, 'PedestrianInvolved')" />
+                                    <label class="ml-3" for="pedestrian">Pedestrian Involved</label>
+                                    <input type="number" style="align-self: center;" id="PedestrianInvolved" asp-for="@Model.pedestrian_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input name="bicyclist" type="checkbox" value="BicyclistInvolved" onchange="ChangeCheckIntoFloat(this.name, 'BicyclistInvolved')" />
+                                    <label class="ml-3" for="bicyclist">Bicyclist Involved</label>
+                                    <input type="number" style="align-self: center;" id="BicyclistInvolved" asp-for="@Model.bicyclist_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input name="motorcycle" type="checkbox" value="MotorcycleInvolved" onchange="ChangeCheckIntoFloat(this.name, 'MotorcycleInvolved')" />
+                                    <label class="ml-3" for="motorcycle">Motorcycle Involved</label>
+                                    <input type="number" style="align-self: center;" id="MotorcycleInvolved" asp-for="@Model.motorcycle_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input name="Improper" type="checkbox" value="ImproperRestraint" onchange="ChangeCheckIntoFloat(this.name, 'ImproperRestraint')" />
+                                    <label class="ml-3" for="Improper">Improper Restraint</label>
+                                    <input type="number" style="align-self: center;" id="ImproperRestraint" asp-for="@Model.improper_restraint" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="unrestrained" type="checkbox" value="Unrestrained" onchange="ChangeCheckIntoFloat(this.name, 'Unrestrained')" />
+                                    <label class="ml-3" for="unrestrained">Unrestrained</label>
+                                    <input type="number" style="align-self: center;" id="Unrestrained" asp-for="@Model.unrestrained" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="dui" type="checkbox" value="DUI" onchange="ChangeCheckIntoFloat(this.name, 'DUI')" />
+                                    <label class="ml-3" for="dui">DUI</label>
+                                    <input type="number" style="align-self: center;" id="DUI" asp-for="@Model.dui" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="intersection" type="checkbox" value="IntersectionRelated" onchange="ChangeCheckIntoFloat(this.name, 'IntersectionRelated')" />
+                                    <label class="ml-3" for="intersection">Intersection Related</label>
+                                    <input type="number" style="align-self: center;" id="IntersectionRelated" asp-for="@Model.intersection_related" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input name="wild" type="checkbox" value="WildAnimalRelated" onchange="ChangeCheckIntoFloat(this.name, 'WildAnimalRelated')" />
+                                    <label class="ml-3" for="wild">Wild Animal Related</label>
+                                    <input type="number" style="align-self: center;" id="WildAnimalRelated" asp-for="@Model.wild_animal_related" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="work" type="checkbox" value="WorkZone" onchange="ChangeCheckIntoFloat(this.name, 'WorkZone')" />
+                                    <label class="ml-3" for="work">Work Zone Related</label>
+                                    <input type="number" style="align-self: center;" id="WorkZone" asp-for="@Model.work_zone_related" hidden />
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column ml-5">
+
+                                <div class="d-flex align-items-center">
+
+                                    <input name="overturn" type="checkbox" value="Overturn" onchange="ChangeCheckIntoFloat(this.name, 'Overturn')" />
+                                    <label class="ml-3" for="overturn">Overturn Rollover</label>
+                                    <input type="number" style="align-self: center;" id="Overturn" asp-for="@Model.overturn_rollover" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="commercial" type="checkbox" value="Commercial" onchange="ChangeCheckIntoFloat(this.name, 'Commercial')" />
+                                    <label class="ml-3" for="commercial">Commercial Motor Vehicle Involved</label>
+                                    <input type="number" style="align-self: center;" id="Commercial" asp-for="@Model.commercial_motor_veh_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="teenage" type="checkbox" value="Teenage" onchange="ChangeCheckIntoFloat(this.name, 'Teenage')" />
+                                    <label class="ml-3" for="teenage">Teenage Driver Involved</label>
+                                    <input type="number" style="align-self: center;" id="Teenage" asp-for="@Model.teenage_driver_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="older" type="checkbox" value="Older" onchange="ChangeCheckIntoFloat(this.name, 'Older')" />
+                                    <label class="ml-3" for="older">Older Driver Involved</label>
+                                    <input type="number" style="align-self: center;" id="Older" asp-for="@Model.older_driver_involved" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="single" type="checkbox" value="SingleVeh" onchange="ChangeCheckIntoFloat(this.name, 'SingleVeh')" />
+                                    <label class="ml-3" for="single">Single Vehicle</label>
+                                    <input type="number" style="align-self: center;" id="SingleVeh" asp-for="@Model.single_vehicle" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="distracted" type="checkbox" value="DistractedDriving" onchange="ChangeCheckIntoFloat(this.name, 'DistractedDriving')" />
+                                    <label class="ml-3" for="distracted">Distracted Driving</label>
+                                    <input type="number" style="align-self: center;" id="DistractedDriving" asp-for="@Model.distracted_driving" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="drowsy" type="checkbox" value="Drowsy" onchange="ChangeCheckIntoFloat(this.name, 'Drowsy')" />
+                                    <label class="ml-3" for="drowsy">Drowsy Driving</label>
+                                    <input type="number" style="align-self: center;" id="Drowsy" asp-for="@Model.drowsy_driving" hidden />
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <input name="road" type="checkbox" value="Roadway" onchange="ChangeCheckIntoFloat(this.name, 'Roadway')" />
+                                    <label class="ml-3" for="road">Left Roadway</label>
+                                    <input type="number" style="align-self: center;" id="Roadway" asp-for="@Model.roadway_departure" hidden />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center my-3">
+                            <button type="submit" class="btn boxed-btn mr-2">Calculate Crash Severity</button>
+                            <a class="btn dark-btn" asp-action="FullCalculator" asp-controller="Home">Clear</a>
+                        </div>
+                    </form>
+                    </div>
+                </div>
                 </div>
             </div>
-            <div class="d-flex flex-column ml-5">
-
-                    <div class="d-flex align-items-center">
-
-                        <input name="overturn" type="checkbox" value="Overturn" onchange="ChangeCheckIntoFloat(this.name, 'Overturn')" />
-                        <label class="ml-3" for="overturn">Overturn Rollover</label>
-                        <input type="number" style="align-self: center;" id="Overturn" asp-for="@Model.overturn_rollover" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="commercial" type="checkbox" value="Commercial" onchange="ChangeCheckIntoFloat(this.name, 'Commercial')" />
-                        <label class="ml-3" for="commercial">Commercial Motor Vehicle Involved</label>
-                        <input type="number" style="align-self: center;" id="Commercial" asp-for="@Model.commercial_motor_veh_involved" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="teenage" type="checkbox" value="Teenage" onchange="ChangeCheckIntoFloat(this.name, 'Teenage')" />
-                        <label class="ml-3" for="teenage">Teenage Driver Involved</label>
-                        <input type="number" style="align-self: center;" id="Teenage" asp-for="@Model.teenage_driver_involved" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="older" type="checkbox" value="Older" onchange="ChangeCheckIntoFloat(this.name, 'Older')" />
-                        <label class="ml-3" for="older">Older Driver Involved</label>
-                        <input type="number" style="align-self: center;" id="Older" asp-for="@Model.older_driver_involved" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <input name="night" type="checkbox" value="NightDark" onchange="ChangeCheckIntoFloat(this.name, 'NightDark')" />
-                        <label class="ml-3" for="night">Night Dark Condition</label>
-                        <input type="number" style="align-self: center;" id="NightDark" asp-for="@Model.night_dark_condition" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="single" type="checkbox" value="SingleVeh" onchange="ChangeCheckIntoFloat(this.name, 'SingleVeh')" />
-                        <label class="ml-3" for="single">Single Vehicle</label>
-                        <input type="number" style="align-self: center;" id="SingleVeh" asp-for="@Model.single_vehicle" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="distracted" type="checkbox" value="DistractedDriving" onchange="ChangeCheckIntoFloat(this.name, 'DistractedDriving')" />
-                        <label class="ml-3" for="distracted">Distracted Driving</label>
-                        <input type="number" style="align-self: center;" id="DistractedDriving" asp-for="@Model.distracted_driving" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="drowsy" type="checkbox" value="Drowsy" onchange="ChangeCheckIntoFloat(this.name, 'Drowsy')" />
-                        <label class="ml-3" for="drowsy">Drowsy Driving</label>
-                        <input type="number" style="align-self: center;" id="Drowsy" asp-for="@Model.drowsy_driving" hidden />
-                    </div>
-                    <div class="d-flex align-items-center">
-
-                        <input name="road" type="checkbox" value="Roadway" onchange="ChangeCheckIntoFloat(this.name, 'Roadway')" />
-                        <label class="ml-3" for="road">Left Roadway</label>
-                        <input type="number" style="align-self: center;" id="Roadway" asp-for="@Model.roadway_departure" hidden />
-                    </div>
-                </div>
-            </div>
-        <div class="d-flex justify-content-center my-3">
-            <button type="submit" class="btn boxed-btn mr-2">Calculate Crash Severity</button>
-            <a class="btn dark-btn" asp-action="FullCalculator" asp-controller="Home">Clear</a>
-        </div>
-    </form>
-</div>

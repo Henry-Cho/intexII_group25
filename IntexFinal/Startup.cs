@@ -65,7 +65,7 @@ namespace IntexFinal
             services.AddSession();
             services.AddServerSideBlazor();
             services.AddSingleton<InferenceSession>(
-              new InferenceSession("Models/a.onnx")
+              new InferenceSession("Models/utah_crash.onnx")
             );
 
         }
