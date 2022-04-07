@@ -34,8 +34,20 @@ namespace IntexFinal.Controllers
         }
 
 
-        public IActionResult Incidents(int pageNum = 1)
+        public IActionResult Incidents(int pageNum = 1, string r = "")
         {
+            if (r != "r")
+            {
+                TempData.Remove("FilteredList");
+            }
+            if (r == "")
+            {
+                ViewBag.Redirect = false;
+            }
+            else
+            {
+                ViewBag.Redirect = true;
+            }
             int pageSize = 4;
             var c = new IncidentsViewModel();
             List<crash_data> cd = new List<crash_data>();
@@ -44,7 +56,7 @@ namespace IntexFinal.Controllers
                 JObject temp = JsonConvert.DeserializeObject(TempData["FilteredList"].ToString()) as JObject;
                 TempData.Keep("FilteredList");
                 var fd = temp.ToObject<FilteredData>();
-                cd = repo.GetFiltered(fd.city, fd.county_name, fd.route, fd.milepoint, fd.main_road_name, fd.crash_severity_id, fd.work_zone_related, fd.pedestrian_involved, fd.bicyclist_involved, fd.motorcycle_involved, fd.improper_restraint,
+                cd = repo.GetFiltered(fd.city, fd.county_name, fd.route, fd.main_road_name, fd.crash_severity_id, fd.work_zone_related, fd.pedestrian_involved, fd.bicyclist_involved, fd.motorcycle_involved, fd.improper_restraint,
                 fd.unrestrained, fd.dui, fd.intersection_related, fd.wild_animal_related, fd.domestic_animal_related, fd.overturn_rollover, fd.commercial_motor_veh_involved,
                 fd.teenage_driver_involved, fd.older_driver_involved, fd.night_dark_condition, fd.single_vehicle, fd.distracted_driving, fd.drowsy_driving, fd.roadway_departure);
             }
@@ -83,6 +95,10 @@ namespace IntexFinal.Controllers
                     }
                 };
             }
+            if (cd.Count() != 0)
+                ViewBag.Length = cd.Count();
+            else
+                ViewBag.Length = repo.Crash_Data.ToList().Count();
 
             return View(c);
         }
@@ -150,7 +166,6 @@ namespace IntexFinal.Controllers
             fd.city = null;
             fd.county_name = null;
             fd.route = null; 
-            fd.milepoint = null;
             fd.main_road_name = null;
             fd.crash_severity_id = null;
             fd.work_zone_related = null;
@@ -179,11 +194,6 @@ namespace IntexFinal.Controllers
             if(route_temp != "null")
             {
                 fd.route = Convert.ToInt32(route_temp);
-            }
-            var milepoint_temp = form["milepoint"];
-            if (milepoint_temp != "null")
-            {
-                fd.milepoint = Convert.ToInt32(milepoint_temp);
             }
             var main_road_temp = form["main_road_name"];
             if (main_road_temp != "null")
@@ -300,7 +310,7 @@ namespace IntexFinal.Controllers
 
             TempData["FilteredList"] = JsonConvert.SerializeObject(fd);
             
-            return RedirectToAction("Incidents", new { pageNum = 1});
+            return RedirectToAction("Incidents", new { pageNum = 1, r="r"});
         }
 
         [HttpGet]
@@ -413,7 +423,6 @@ namespace IntexFinal.Controllers
             public string? city;
             public string? county_name;
             public int? route;
-            public double? milepoint;
             public string? main_road_name;
             public int? crash_severity_id;
             public bool? work_zone_related;

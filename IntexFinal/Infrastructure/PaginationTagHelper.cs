@@ -33,6 +33,7 @@ namespace IntexFinal.Infrastructure
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
         public string PageClassSelected { get; set; }
+        public bool Redirect { get; set; }
 
         public override void Process(TagHelperContext thc, TagHelperOutput tho)
         {
@@ -54,11 +55,39 @@ namespace IntexFinal.Infrastructure
                     anchorInnerHtml = "...";
 
                     if (anchorInnerHtml == "..")
-                        tag.Attributes["href"] = "#";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "#?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "#";
+                        }
+                    }
                     else if (i == 1)
-                        tag.Attributes["href"] = "/page1";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page1?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page1";
+                        }
+
+                    }
                     else
-                        tag.Attributes["href"] = "/page" + i;
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page" + i + "?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page" + i;
+                        }
+                    }
 
                     if (PageClassesEnabled)
                     {
@@ -84,12 +113,41 @@ namespace IntexFinal.Infrastructure
 
                     anchorInnerHtml = AnchorInnerHtml(i, PageList);
 
+
                     if (anchorInnerHtml == "..")
-                        tag.Attributes["href"] = "#";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "#?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "#";
+                        }
+                    }
                     else if (i == 1)
-                        tag.Attributes["href"] = "/page1";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page1?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page1";
+                        }
+
+                    }
                     else
-                        tag.Attributes["href"] = "/page" + i;
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page" + i + "?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page" + i;
+                        }
+                    }
 
                     if (PageClassesEnabled)
                     {

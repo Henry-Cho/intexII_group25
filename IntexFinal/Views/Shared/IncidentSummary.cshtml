@@ -26,14 +26,13 @@
                     <h4 class="mb-0 ml-3 text-white">@Model.crash_datetime</h4> 
                     <h4 class="mb-0 mr-3 text-white">Severity: @Model.crash_severity_id</h4>
                 </div>
-                <h5 class="mt-4 mx-2">Tags: @results</h5>
+                <h6 class="mt-2 mx-2">Tags: @results</h6>
                 
 
             </div>
             <div class="flip-card-back">
                 <h3 class="mt-2">Incident Details</h3>
                 <ul>
-                    <li>Route: @Model.route</li>
                     <li>Road: @Model.main_road_name</li>
                     <li>City: @Model.city</li>
                     <li>County: @Model.county_name</li>
