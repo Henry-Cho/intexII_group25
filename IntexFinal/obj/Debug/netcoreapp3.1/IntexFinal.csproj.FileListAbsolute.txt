@@ -773,7 +773,6 @@ C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\ne
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorComponent.input.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\AccountPage.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\AdminLayout.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Details.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
@@ -786,7 +785,6 @@ C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\ne
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.input.cache
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.TagHelpers.output.cache
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\IntexFinal.RazorCoreGenerate.cache
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AccountPage.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminLayout.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Details.razor.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Editor.razor.g.cs
