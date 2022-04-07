@@ -1,41 +1,42 @@
 ﻿@{
 }
-
+@using System.Reflection;
 @model crash_data
 
+@{ string results = "";
+
+    foreach (PropertyInfo prop in typeof(crash_data).GetProperties())
+    {
+        if (prop.PropertyType == typeof(bool))
+        {
+            if(Convert.ToBoolean(prop.GetValue(Model, null)) == true)
+            {
+                var temp = prop.Name.Replace("_", " ");
+                temp = char.ToUpper(temp[0]) + temp.Substring(1);
+                results += temp + ", ";
+           }
+        }
+    }
+    results = results.Remove(results.Length - 2);
+}
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <h1>@Model.crash_datetime</h1>
-                <h3>Route: @Model.route</h3>
-                <h3>City: @Model.city</h3>
-                <h3>County: @Model.county_name</h3>
-                <h3>Severity: @Model.crash_severity_id</h3>
+                <div class="d-flex justify-content-between align-items-center headerpart">
+                    <h4 class="mb-0 ml-3 text-white">@Model.crash_datetime</h4> 
+                    <h4 class="mb-0 mr-3 text-white">Severity: @Model.crash_severity_id</h4>
+                </div>
+                <h5 class="mt-4 mx-2">Tags: @results</h5>
+                
+
             </div>
             <div class="flip-card-back">
-                <h1>Incident Factors</h1>
+                <h3 class="mt-2">Incident Details</h3>
                 <ul>
-                    <li>lat_utm_y: @Model.lat_utm_y</li>
-                    <li>long_utm_x: @Model.long_utm_x</li>
-                    <li>work_zone_related: @Model.work_zone_related</li>
-                    <li>pedestrian_involved: @Model.pedestrian_involved</li>
-                    <li>bicyclist_involved: @Model.bicyclist_involved</li>
-                    <li>motorcycle_involved: @Model.motorcycle_involved</li>
-                    <li>improper_restraint: @Model.improper_restraint</li>
-                    <li>unrestrained: @Model.unrestrained</li>
-                    <li>dui: @Model.dui</li>
-                    <li>intersection_related: @Model.intersection_related</li>
-                    <li>wild_animal_related: @Model.wild_animal_related</li>
-                    <li>domestic_animal_related: @Model.domestic_animal_related</li>
-                    <li>overturn_rollover: @Model.overturn_rollover</li>
-                    <li>commercial_motor_veh_involved: @Model.commercial_motor_veh_involved</li>
-                    <li>teenage_driver_involved: @Model.teenage_driver_involved</li>
-                    <li>older_driver_involved: @Model.older_driver_involved</li>
-                    <li>night_dark_condition: @Model.night_dark_condition</li>
-                    <li>single_vehicle: @Model.single_vehicle</li>
-                    <li>distracted_driving: @Model.distracted_driving</li>
-                    <li>drowsy_driving: @Model.drowsy_driving</li>
-                    <li>roadway_departure: @Model.roadway_departure</li>
+                    <li>Route: @Model.route</li>
+                    <li>Road: @Model.main_road_name</li>
+                    <li>City: @Model.city</li>
+                    <li>County: @Model.county_name</li>
                 </ul>
             </div>
         </div>

@@ -5,33 +5,38 @@
 @model IncidentsViewModel
 
 <div class="hero-area hero-bg">
-    <a class="btn btn-primary" asp-controller="Home" asp-action="Filter">Filter</a>
+
     <div class="container">
+        <div class="row h-auto">
+            <div class="h-auto col-lg-9 offset-lg-2 mt-3">
+                <a class="btn boxed-btn ml-2" asp-controller="Home" asp-action="Filter">Filter List</a>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-9 offset-lg-2">
                 @if (Model.Incidents?.Count() > 0)
                 {
-                <div class="inc-group">
-                    @foreach (crash_data c in Model.Incidents)
-                    {
-                    <partial name="IncidentSummary" model="c" />
-                    }
-                    <div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
-                         page-class="Paging" page-class-selected="active" class="pagingDiv inc-btn-group">
+                    <div class="inc-group">
+                        @foreach (crash_data c in Model.Incidents)
+                        {
+                            <partial name="IncidentSummary" model="c" />
+                        }
+                        <div page-list="@Model.PageInfo" page-action="Incidents" page-classes-enabled="true"
+                             page-class="Paging" page-class-selected="active" class="pagingDiv inc-btn-group">
+                        </div>
                     </div>
-                </div>
                 }
                 else
                 {
-                <div class="hero-text">
-                    <div class="hero-text-tablecell text-center">
-                        <p class="subtitle">Sorry</p>
-                        <h1>No Incident Data</h1>
-                        <div class="hero-btns">
-                            <a asp-controller="Home" asp-action="Index" class="boxed-btn">Back to Home</a>
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell text-center">
+                            <p class="subtitle">Sorry</p>
+                            <h1>No Incident Data</h1>
+                            <div class="hero-btns">
+                                <a asp-controller="Home" asp-action="Index" class="boxed-btn">Back to Home</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 }
 
 

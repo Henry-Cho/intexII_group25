@@ -33,31 +33,10 @@ namespace IntexFinal.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult FilteredIncidents(IQueryable<crash_data> cd, int pageNum = 1)
-        {
-            int pageSize = 7;
-
-            var c = new IncidentsViewModel
-            {
-            Incidents = cd
-                .OrderByDescending(x => x.crash_datetime)
-                .Skip((pageNum - 1) * pageSize)
-                .Take(pageSize),
-
-            PageInfo = new PageInfo
-            {
-                TotalNumIncidents = cd.Count(),
-                IncidentsPerPage = pageSize,
-                CurrentPage = pageNum
-            }
-            };
-            return View(c);
-        }
 
         public IActionResult Incidents(int pageNum = 1)
         {
-            int pageSize = 7;
+            int pageSize = 4;
             var c = new IncidentsViewModel();
             List<crash_data> cd = new List<crash_data>();
             if (TempData["FilteredList"] != null)

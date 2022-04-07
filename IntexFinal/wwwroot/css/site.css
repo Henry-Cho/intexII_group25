@@ -93,7 +93,7 @@ body {
 }
 
 .inc-group {
-    padding: 100px 0 0 0;
+    padding: 20px 0 0 0;
     height: 100%;
     overflow-y: scroll;
     display: flex;
@@ -116,8 +116,8 @@ body {
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
-    width: 700px;
-    max-height: 400px;
+    width: 750px;
+    height: 300px;
     border: none;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -161,14 +161,14 @@ body {
     transform: rotateY(180deg);
 }
 
-.flip-card h1 {
+.flip-card .headerpart {
     display: inline-block;
     position: relative;
-    font-size: 30px;
     color: white;
     width: 100%;
     background: #343A3F;
     margin: 0;
+    height:75px;
 }
 
 .flip-card h3 {
