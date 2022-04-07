@@ -33,9 +33,12 @@ namespace IntexFinal.Controllers
             return View();
         }
 
-
+        //returns list of all Incidents in database by default, or can be filtered
         public IActionResult Incidents(int pageNum = 1, string r = "")
         {
+            //r represents redirect
+            // if r is present, we want to keep temp data to have access to our list of crash data
+            //if not, we want to delete it
             if (r != "r")
             {
                 TempData.Remove("FilteredList");
@@ -51,6 +54,7 @@ namespace IntexFinal.Controllers
             int pageSize = 4;
             var c = new IncidentsViewModel();
             List<crash_data> cd = new List<crash_data>();
+            //this creates pulls a filtered list from the database if necessary
             if (TempData["FilteredList"] != null)
             {
                 JObject temp = JsonConvert.DeserializeObject(TempData["FilteredList"].ToString()) as JObject;
@@ -60,7 +64,7 @@ namespace IntexFinal.Controllers
                 fd.unrestrained, fd.dui, fd.intersection_related, fd.wild_animal_related, fd.domestic_animal_related, fd.overturn_rollover, fd.commercial_motor_veh_involved,
                 fd.teenage_driver_involved, fd.older_driver_involved, fd.night_dark_condition, fd.single_vehicle, fd.distracted_driving, fd.drowsy_driving, fd.roadway_departure);
             }
-
+            //if there is no passed filtered data, pull all data
             if (cd.Count() == 0)
             {
                 c = new IncidentsViewModel
@@ -78,6 +82,7 @@ namespace IntexFinal.Controllers
                     }
                 };
             }
+            //otherwise pull only the filtered data
             else
             {
                 c = new IncidentsViewModel
@@ -95,6 +100,7 @@ namespace IntexFinal.Controllers
                     }
                 };
             }
+            //set length so that user can see number of results
             if (cd.Count() != 0)
                 ViewBag.Length = cd.Count();
             else
@@ -103,6 +109,7 @@ namespace IntexFinal.Controllers
             return View(c);
         }
 
+        //page that does the filtering. it has to be in separate view since it is so big
         [HttpGet]
         public IActionResult Filter()
         {
@@ -159,6 +166,7 @@ namespace IntexFinal.Controllers
             return View();
         }
 
+        // goes through and manages all the form inputs so that they can be used in the database
         [HttpPost]
         public IActionResult Filter(IFormCollection form )
         {
@@ -190,6 +198,7 @@ namespace IntexFinal.Controllers
             fd.drowsy_driving = null;
             fd.roadway_departure = null;
         
+            // if it is "null" then that means we do not want to filter this item
             var route_temp = form["route"];
             if(route_temp != "null")
             {
@@ -307,23 +316,26 @@ namespace IntexFinal.Controllers
                fd.roadway_departure = Convert.ToBoolean(roadway_temp);
             }
 
-
+            //stores this data in tempdata so we can access in other controllers
             TempData["FilteredList"] = JsonConvert.SerializeObject(fd);
             
             return RedirectToAction("Incidents", new { pageNum = 1, r="r"});
         }
 
+        //Calculator Home
         [HttpGet]
         public IActionResult SeverityCalculator()
         {
             return View();
         }
+        //Page for all the inputs for our model
         [HttpGet]
         public IActionResult FullCalculator()
         {
             crash_prediction cd = new crash_prediction();
             return View(cd);
         }
+        // sends data through the model and returns prediction info
         [HttpPost]
         public IActionResult FullCalculator(crash_prediction data)
         {
@@ -336,6 +348,7 @@ namespace IntexFinal.Controllers
             result.Dispose();
             return RedirectToAction("Result", prediction);
         }
+        //calculator just based on city all other data held constant
         [HttpGet]
         public IActionResult CityCalc()
         {
@@ -354,12 +367,14 @@ namespace IntexFinal.Controllers
             result.Dispose();
             return RedirectToAction("Result", prediction);
         }
+        //calculator based on just distractions all other variables held constant
         [HttpGet]
         public IActionResult DistCalc()
         {
             crash_prediction cd = new crash_prediction();
             return View(cd);
         }
+
         [HttpPost]
         public IActionResult DistCalc(crash_prediction data)
         {
@@ -372,6 +387,8 @@ namespace IntexFinal.Controllers
             result.Dispose();
             return RedirectToAction("Result", prediction);
         }
+
+        //calculator just for special events, everything else held constant
         [HttpGet]
         public IActionResult SpecialCalc()
         {
@@ -390,6 +407,7 @@ namespace IntexFinal.Controllers
             result.Dispose();
             return RedirectToAction("Result", prediction);
         }
+        //result page to show what crash severity was calculated by the model
         public IActionResult Result(Prediction p)
         {
             if (p.PredictedValue > 5)
@@ -402,12 +420,13 @@ namespace IntexFinal.Controllers
             }
             return View(p);
         }
+        //informational page, no functionality
         public IActionResult Stats()
         {
             return View();
         }
 
-
+        //GDPR compliant privacy policy
         public IActionResult Privacy()
         {
             return View();
@@ -419,6 +438,7 @@ namespace IntexFinal.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        //used to make filtering easier by compiling all the data together
         public struct FilteredData {
             public string? city;
             public string? county_name;

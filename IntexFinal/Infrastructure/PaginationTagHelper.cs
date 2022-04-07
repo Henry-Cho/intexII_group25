@@ -43,17 +43,22 @@ namespace IntexFinal.Infrastructure
             TagBuilder final = new TagBuilder("div");
             string anchorInnerHtml = "";
 
+            //limit pages so that if there are 200 resulting pages we arent showing all of them at once
+
             for (int i = PageList.CurrentPage - 3; i <= PageList.TotalPages; i++)
             {
+                //if i is less than 0 then we don't want to display these numbers
                 if (i <= 0)
                 {
                     continue;
                 }
+                //actually build out tags when it is in correct range
                 if (i > PageList.CurrentPage + 3 || (i == PageList.CurrentPage - 3))
                 {
                     TagBuilder tag = new TagBuilder("a");
                     anchorInnerHtml = "...";
 
+                    //set up hrefs- redirect r is to help with filtered list of results.
                     if (anchorInnerHtml == "..")
                     {
                         if (Redirect)
