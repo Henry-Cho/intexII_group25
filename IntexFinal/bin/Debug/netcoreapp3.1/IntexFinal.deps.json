@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "IntexFinal/1.0.0": {
         "dependencies": {
+          "AWSSDK.SecretsManager": "3.7.2.26",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.23",
           "Microsoft.AspNetCore.Identity.UI": "3.1.23",
           "Microsoft.CodeAnalysis.Analyzers": "2.9.4",
@@ -309,6 +310,31 @@
         },
         "compile": {
           "IntexFinal.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.10.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.10.4"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SecretsManager/3.7.2.26": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.10.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.26"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.23": {
@@ -1880,7 +1906,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -4340,6 +4370,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.10.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hnp6abEQIAVL3ZIOxbO6khTsRrLp7WNV5ZYkAiAsVTPwE89PG7pW0KAB/90zbbmqMbDGqs3y/dJf/YjpitZWwQ==",
+      "path": "awssdk.core/3.7.10.4",
+      "hashPath": "awssdk.core.3.7.10.4.nupkg.sha512"
+    },
+    "AWSSDK.SecretsManager/3.7.2.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IKYlD7bv6Qh4dBQdvXJxRFjHtEG75LndoT3So+cTc1xiLSeJMoTB5gJNVIpWPFYyZjPcleQqsss0lni2+8hEDw==",
+      "path": "awssdk.secretsmanager/3.7.2.26",
+      "hashPath": "awssdk.secretsmanager.3.7.2.26.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.23": {
       "type": "package",

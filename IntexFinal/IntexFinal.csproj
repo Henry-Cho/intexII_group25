@@ -311,6 +311,7 @@
     <None Include="wwwroot\lib\feather\zoom-out.svg" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.2.26" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.23" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.23" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.9.4">

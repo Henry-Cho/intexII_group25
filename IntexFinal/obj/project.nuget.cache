@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MtQ/p8LNYw7PSTEa9cQGwV6pM1+FYf9VeDUfCJShH7Vuvd/hOhcNkR7fOY/fLAVUSjaZsamWiVeLByKJR0QltA==",
+  "dgSpecHash": "O41xPIQb4LT2loVjbXaYtdcrRPSaGpbGlZ9aVrM4Ok8DTJnZ9XirT5aRJSWpE1PfG3i+nHVmvq32h1PtZzdY7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ransom Allphin\\source\\repos\\intexII_group25\\IntexFinal\\IntexFinal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ransom Allphin\\.nuget\\packages\\awssdk.core\\3.7.10.4\\awssdk.core.3.7.10.4.nupkg.sha512",
+    "C:\\Users\\Ransom Allphin\\.nuget\\packages\\awssdk.secretsmanager\\3.7.2.26\\awssdk.secretsmanager.3.7.2.26.nupkg.sha512",
     "C:\\Users\\Ransom Allphin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.23\\microsoft.aspnetcore.cryptography.internal.3.1.23.nupkg.sha512",
     "C:\\Users\\Ransom Allphin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.23\\microsoft.aspnetcore.cryptography.keyderivation.3.1.23.nupkg.sha512",
     "C:\\Users\\Ransom Allphin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

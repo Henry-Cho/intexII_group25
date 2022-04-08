@@ -38,8 +38,12 @@ namespace IntexFinal
             });
             services.AddControllersWithViews();
 
+            var value = Environment.GetEnvironmentVariable("EBCredential");
+
             services.AddDbContext<AppIdentityDBContext>(options =>
-             options.UseMySql(Configuration["ConnectionStrings:IdentityConnection"]));
+            {
+                options.UseMySql($"Data Source=aa1rcvud0f2daxe.cda9oszfqlap.us-east-1.rds.amazonaws.com;Initial Catalog=identity2;username=admin;Password={value}");
+            });
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppIdentityDBContext>()
@@ -58,8 +62,10 @@ namespace IntexFinal
 
             services.AddDbContext<CrashDBContext>(options =>
             {
-                options.UseMySql(Configuration["ConnectionStrings:CrashDbConnection"]);
+                options.UseMySql($"Data Source=aa1rcvud0f2daxe.cda9oszfqlap.us-east-1.rds.amazonaws.com;Initial Catalog=intex2;username=admin;Password={value}");
+
             });
+
             services.AddScoped<ICrashRepository, EFCrashRepository>();
             services.AddRazorPages();
             services.AddSession();
