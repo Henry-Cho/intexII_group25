@@ -67,9 +67,15 @@ namespace IntexFinal
             services.AddSession();
             services.AddServerSideBlazor();
             services.AddSingleton<InferenceSession>(
-              new InferenceSession("Models/utah_crash.onnx")
+              new InferenceSession("wwwroot/utah_crash.onnx")
             );
-
+            services.AddHsts(options =>
+            {
+                options.Preload = true;
+                options.IncludeSubDomains = true;
+                options.MaxAge = TimeSpan.FromDays(60);
+                options.ExcludedHosts.Add("https://utahcarcrash.404group25.net");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,7 +91,7 @@ namespace IntexFinal
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSession();

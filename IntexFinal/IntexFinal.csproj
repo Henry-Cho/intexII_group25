@@ -310,6 +310,7 @@
     <None Include="wwwroot\lib\feather\zap.svg" />
     <None Include="wwwroot\lib\feather\zoom-in.svg" />
     <None Include="wwwroot\lib\feather\zoom-out.svg" />
+    <None Include="wwwroot\utah_crash.onnx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.23" />
@@ -333,5 +334,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.23" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\utah_crash.onnx" />
   </ItemGroup>
 </Project>
