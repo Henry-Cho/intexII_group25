@@ -13,7 +13,7 @@ namespace IntexFinal.Models
         {
             _context = temp;
         }
-        public IQueryable<crash_data> Crash_Data => _context.Crash_Data;
+        public IQueryable<crash_data> crash_data => _context.crash_data;
 
         //create
 
@@ -42,7 +42,7 @@ namespace IntexFinal.Models
             bool? unrestrained, bool? dui, bool? intersection_related, bool? wild_animal_related, bool? domestic_animal_related, bool? overturn_rollover, bool? commercial_motor_veh_involved,
             bool? teenage_driver_involved, bool? older_driver_involved, bool? night_dark_condition, bool? single_vehicle, bool? distracted_driving, bool? drowsy_driving, bool? roadway_departure)
         {
-            IQueryable<crash_data> record = _context.Crash_Data;
+            IQueryable<crash_data> record = _context.crash_data;
             if (bicyclist_involved != null)
                 record = record.Where(x => x.bicyclist_involved == bicyclist_involved);
             if (city != null)

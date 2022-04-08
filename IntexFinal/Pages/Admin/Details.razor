@@ -54,7 +54,7 @@
     protected override void OnParametersSet()
     {
         //set up to pull the crash data with the id we sent in
-        crash_Data = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
+        crash_Data = repo.crash_data.FirstOrDefault(x => x.crash_ID == Id);
     }
 
     public string EditUrl => $"/admin/incidents/edit/{crash_Data.crash_ID}";

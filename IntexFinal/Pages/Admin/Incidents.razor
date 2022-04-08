@@ -71,7 +71,7 @@
 
     //public async Task UpdateData()
     //{
-    //    IncidentData = await repo.Crash_Data.ToListAsync();
+    //    IncidentData = await repo.crash_data.ToListAsync();
 
     //}
 
@@ -95,7 +95,7 @@
     }
     public void CreatePagingInfo()
     {
-        var AllData = repo.Crash_Data;
+        var AllData = repo.crash_data;
 
         int PageSize = 7;
         pagingInfo = new PagingInfo();
