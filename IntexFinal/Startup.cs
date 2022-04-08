@@ -110,7 +110,6 @@ namespace IntexFinal
                 endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
 
-            IdentitySeedData.EnsurePopulated(app);
 
             //This enables the CSP HTTP header
             app.Use(async (context, next) =>

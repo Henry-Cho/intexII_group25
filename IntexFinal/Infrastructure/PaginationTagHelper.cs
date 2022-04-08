@@ -33,6 +33,7 @@ namespace IntexFinal.Infrastructure
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
         public string PageClassSelected { get; set; }
+        public bool Redirect { get; set; }
 
         public override void Process(TagHelperContext thc, TagHelperOutput tho)
         {
@@ -42,23 +43,56 @@ namespace IntexFinal.Infrastructure
             TagBuilder final = new TagBuilder("div");
             string anchorInnerHtml = "";
 
+            //limit pages so that if there are 200 resulting pages we arent showing all of them at once
+
             for (int i = PageList.CurrentPage - 3; i <= PageList.TotalPages; i++)
             {
+                //if i is less than 0 then we don't want to display these numbers
                 if (i <= 0)
                 {
                     continue;
                 }
+                //actually build out tags when it is in correct range
                 if (i > PageList.CurrentPage + 3 || (i == PageList.CurrentPage - 3))
                 {
                     TagBuilder tag = new TagBuilder("a");
                     anchorInnerHtml = "...";
 
+                    //set up hrefs- redirect r is to help with filtered list of results.
                     if (anchorInnerHtml == "..")
-                        tag.Attributes["href"] = "#";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "#?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "#";
+                        }
+                    }
                     else if (i == 1)
-                        tag.Attributes["href"] = "/page1";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page1?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page1";
+                        }
+
+                    }
                     else
-                        tag.Attributes["href"] = "/page" + i;
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page" + i + "?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page" + i;
+                        }
+                    }
 
                     if (PageClassesEnabled)
                     {
@@ -84,12 +118,41 @@ namespace IntexFinal.Infrastructure
 
                     anchorInnerHtml = AnchorInnerHtml(i, PageList);
 
+
                     if (anchorInnerHtml == "..")
-                        tag.Attributes["href"] = "#";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "#?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "#";
+                        }
+                    }
                     else if (i == 1)
-                        tag.Attributes["href"] = "/page1";
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page1?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page1";
+                        }
+
+                    }
                     else
-                        tag.Attributes["href"] = "/page" + i;
+                    {
+                        if (Redirect)
+                        {
+                            tag.Attributes["href"] = "/page" + i + "?r=r";
+                        }
+                        else
+                        {
+                            tag.Attributes["href"] = "/page" + i;
+                        }
+                    }
 
                     if (PageClassesEnabled)
                     {

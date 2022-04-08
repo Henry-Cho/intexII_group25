@@ -7,6 +7,7 @@ namespace IntexFinal.Models.ViewModels
 {
     public class PagingInfo
     {
+        //used to set up Paging in Blazor
         public int TotalItems { get; set; }
         public int ItemsPerPage { get; set; }
         public int CurrentPage { get; set; }
