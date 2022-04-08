@@ -801,11 +801,8 @@ C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\ne
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial 2.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports 2.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart 2.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Index.cshtml.g.cs
 C:\Users\annad\OneDrive\Documents\GitHub\intexII_group25\IntexFinal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs

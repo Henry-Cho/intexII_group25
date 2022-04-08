@@ -80,7 +80,7 @@ using IntexFinal.Models;
     {
         if (Id != 0)
         {
-            b = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
+            b = repo.crash_data.FirstOrDefault(x => x.crash_ID == Id);
         }
     }
 

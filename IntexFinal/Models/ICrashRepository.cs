@@ -7,7 +7,7 @@ namespace IntexFinal.Models
 {
     public interface ICrashRepository
     {
-        IQueryable<crash_data> Crash_Data { get; }
+        IQueryable<crash_data> crash_data { get; }
         void SaveCrashData(crash_data cd);
         void CreateCrashData(crash_data cd);
         void DeleteCrashData(crash_data cd);

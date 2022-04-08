@@ -69,14 +69,14 @@ namespace IntexFinal.Controllers
             {
                 c = new IncidentsViewModel
                 {
-                    Incidents = repo.Crash_Data
+                    Incidents = repo.crash_data
                         .OrderByDescending(x => x.crash_datetime)
                         .Skip((pageNum - 1) * pageSize)
                         .Take(pageSize),
 
                     PageInfo = new PageInfo
                     {
-                        TotalNumIncidents = repo.Crash_Data.Count(),
+                        TotalNumIncidents = repo.crash_data.Count(),
                         IncidentsPerPage = pageSize,
                         CurrentPage = pageNum
                     }
@@ -104,7 +104,7 @@ namespace IntexFinal.Controllers
             if (cd.Count() != 0)
                 ViewBag.Length = cd.Count();
             else
-                ViewBag.Length = repo.Crash_Data.ToList().Count();
+                ViewBag.Length = repo.crash_data.ToList().Count();
 
             return View(c);
         }
@@ -113,7 +113,7 @@ namespace IntexFinal.Controllers
         [HttpGet]
         public IActionResult Filter()
         {
-            var csi = repo.Crash_Data
+            var csi = repo.crash_data
                 .Select(x => x.crash_severity_id)
                 .Distinct()
                 .OrderBy(x => x)
@@ -121,7 +121,7 @@ namespace IntexFinal.Controllers
 
             ViewBag.crash_severity_id = csi;
 
-            var cn = repo.Crash_Data
+            var cn = repo.crash_data
                 .Select(x => x.county_name)
                 .Distinct()
                 .OrderBy(x => x)
@@ -129,7 +129,7 @@ namespace IntexFinal.Controllers
 
             ViewBag.county_name = cn;
 
-            var ct = repo.Crash_Data
+            var ct = repo.crash_data
                 .Select(x => x.city)
                 .Distinct()
                 .OrderBy(x => x)
@@ -138,7 +138,7 @@ namespace IntexFinal.Controllers
             ViewBag.city = ct;
 
 
-            var mrn = repo.Crash_Data
+            var mrn = repo.crash_data
                 .Select(x => x.main_road_name)
                 .Distinct()
                 .OrderBy(x => x)
@@ -146,7 +146,7 @@ namespace IntexFinal.Controllers
 
             ViewBag.main_road_name = mrn;
 
-            var mp = repo.Crash_Data
+            var mp = repo.crash_data
                 .Select(x => x.milepoint)
                 .Distinct()
                 .OrderBy(x => x)
@@ -154,7 +154,7 @@ namespace IntexFinal.Controllers
 
             ViewBag.milepoint = mp;
 
-            var rt = repo.Crash_Data
+            var rt = repo.crash_data
                 .Select(x => x.route)
                 .Distinct()
                 .OrderBy(x => x)
