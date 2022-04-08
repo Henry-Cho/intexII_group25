@@ -12,42 +12,42 @@ namespace IntexFinal.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 1 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 2 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 3 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 4 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 6 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 7 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using IntexFinal.Models;
 
 #line default
@@ -63,11 +63,12 @@ using IntexFinal.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 187 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Editor.razor"
+#line 187 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Editor.razor"
        
     [Parameter]
     public long Id { get; set; } = 0;
 
+    //changes colors based on what action is being performed
     public string ThemeColor => Id == 0 ? "lightorange" : "darkorange";
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
@@ -79,18 +80,21 @@ using IntexFinal.Models;
     {
         if (Id != 0)
         {
-            b = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
+            b = repo.crash_data.FirstOrDefault(x => x.crash_ID == Id);
         }
     }
 
+    //save function
     public void SaveCrashData()
     {
         if (Id == 0)
         {
+            //if we are creating a new one-- do create function
             repo.CreateCrashData(b);
         }
         else
         {
+            //if we are editing an existing incident, do edit
             repo.SaveCrashData(b);
         }
 

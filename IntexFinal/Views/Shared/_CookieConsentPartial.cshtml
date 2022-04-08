@@ -5,7 +5,7 @@
     var showBanner = !consentFeature?.CanTrack ?? false;
     var cookieString = consentFeature?.CreateConsentCookie();
 }
-
+<!-- partial view for cookie policy and links to privacy policy-->
 @if (showBanner)
 {
     <div id="cookieConsent" class="alert alert-info alert-dismissible fade show mb-0" role="alert">

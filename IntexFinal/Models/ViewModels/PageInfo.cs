@@ -3,6 +3,7 @@ namespace IntexFinal.Models.ViewModels
 {
     public class PageInfo
     {
+        //used to set up paging in Views
         public int TotalNumIncidents { get; set; }
         public int IncidentsPerPage { get; set; }
         public int CurrentPage { get; set; }

@@ -12,56 +12,56 @@ namespace IntexFinal.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 1 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 2 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 3 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 4 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 6 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/_Imports.razor"
+#line 7 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\_Imports.razor"
 using IntexFinal.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Incidents.razor"
+#line 4 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
 using IntexFinal.Models.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Incidents.razor"
+#line 5 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
 using Microsoft.JSInterop;
 
 #line default
@@ -77,7 +77,7 @@ using Microsoft.JSInterop;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "/Users/dongking/Documents/GitHub/intexII_group25/IntexFinal/Pages/Admin/Incidents.razor"
+#line 57 "C:\Users\Ransom Allphin\source\repos\intexII_group25\IntexFinal\Pages\Admin\Incidents.razor"
        
         [Parameter]
         public int page { get; set; }
@@ -95,7 +95,7 @@ using Microsoft.JSInterop;
 
     //public async Task UpdateData()
     //{
-    //    IncidentData = await repo.Crash_Data.ToListAsync();
+    //    IncidentData = await repo.crash_data.ToListAsync();
 
     //}
 
@@ -119,7 +119,7 @@ using Microsoft.JSInterop;
     }
     public void CreatePagingInfo()
     {
-        var AllData = repo.Crash_Data;
+        var AllData = repo.crash_data;
 
         int PageSize = 7;
         pagingInfo = new PagingInfo();

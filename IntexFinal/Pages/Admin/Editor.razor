@@ -188,6 +188,7 @@
     [Parameter]
     public long Id { get; set; } = 0;
 
+    //changes colors based on what action is being performed
     public string ThemeColor => Id == 0 ? "lightorange" : "darkorange";
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
@@ -199,18 +200,21 @@
     {
         if (Id != 0)
         {
-            b = repo.Crash_Data.FirstOrDefault(x => x.crash_ID == Id);
+            b = repo.crash_data.FirstOrDefault(x => x.crash_ID == Id);
         }
     }
 
+    //save function
     public void SaveCrashData()
     {
         if (Id == 0)
         {
+            //if we are creating a new one-- do create function
             repo.CreateCrashData(b);
         }
         else
         {
+            //if we are editing an existing incident, do edit
             repo.SaveCrashData(b);
         }
 
