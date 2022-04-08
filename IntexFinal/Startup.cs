@@ -45,6 +45,13 @@ namespace IntexFinal
                 .AddEntityFrameworkStores<AppIdentityDBContext>()
                 .AddDefaultTokenProviders();
 
+            //var value = Environment.GetEnvironmentVariable("EBCredential");
+
+            //services.AddDbContext<RDSDBContext>(options =>
+            //{
+            //    options.UseMySql($"Data Source=aa1rcvud0f2daxe.cda9oszfqlap.us-east-1.rds.amazonaws.com;Initial Catalog=ebdb;username=admin;Password={value}");
+            //});
+
             services.Configure<IdentityOptions>(options =>
             {
                 // Default Password settings (increased length for extra strenth)
